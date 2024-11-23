@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl"
+     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/meta_model/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:mereology="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#"
+     xmlns:linked_list="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+</terms:license>
+        <rdfs:comment>The ontology module &apos;linked_list&apos; defines a design pattern for the implementation of a linked list.
+The following classes and relations from other ontology modules are used within &apos;linked_list&apos;:
+   
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#CompositeObject&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOfCompositeObject&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isComposedOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isExclusivelyPartOf&quot;/&gt;
+</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:comment>points from a ListElement to the next ListElement</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:comment>points from a ListElement to the previous ListElement</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isComposedOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isComposedOf"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isExclusivelyPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isExclusivelyPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#FirstElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#FirstElement">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#InternalElement"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LastElement"/>
+        <rdfs:comment>The first ListElement of a LinkedList.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#InternalElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#InternalElement">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LastElement"/>
+        <rdfs:comment>A ListElement that is neither the first nor the last element of a LinkedList.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LastElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LastElement">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The last ListElement of a LinkedList.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LinkedList -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LinkedList">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#CompositeObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isComposedOf"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isComposedOf"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A LinkedList is formed by a sequence of ListElements, each pointing to the next as well as to the previous ListElement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOfCompositeObject"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isExclusivelyPartOf"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LinkedList"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#ListElement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isExclusivelyPartOf"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#LinkedList"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#nextElement"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/linked_list.owl#previousElement"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A ListElement is an element of a LinkedList; it may point to a next as well as to a previous ListElement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#CompositeObject -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#CompositeObject"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOfCompositeObject -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOfCompositeObject"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

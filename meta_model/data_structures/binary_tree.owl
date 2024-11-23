@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl"
+     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/meta_model/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:binary_tree="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+    </terms:license>
+        <rdfs:comment>The ontology module &apos;binary_tree&apos; defines a design pattern for the implementation of binary trees.
+The following classes and relations from other ontology modules are used within &apos;array&apos;:
+ 
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
+    
+    </rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasAncestor -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasAncestor">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasDescendent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:comment>The ancestors of a Node are the Nodes that are traversed when moving up the tree (i.e., the Node’s parent, grandparent, etc.).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasDescendent"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+        <rdfs:comment>The relation hasChild points to the children of a Node; it subsumes the relations hasLeftChild and hasRightChild.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasDescendent -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasDescendent">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:comment>The descendents of a Node are the Nodes that are traversed when moving down the tree (i.e., the Node’s children, grandchildren, etc.).</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasLeftChild -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasLeftChild">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isLeftChildOf"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:comment>The relation hasLeftChild links a parent Node to its left child Node.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasAncestor"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:comment>The relation hasParent denotes the parent of a Node.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasRightChild -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasRightChild">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isRightChildOf"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+        <rdfs:comment>The relation hasRightChild links a parent Node to its right child Node.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isLeftChildOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isLeftChildOf">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isRightChildOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#isRightChildOf">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+        <rdfs:comment>The relation isRightChildOf points from the right child Node to its parent Node.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#InternalNode -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#InternalNode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Leaf"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#RootNode"/>
+        <rdfs:comment>An InternalNode is a Node that has one parent and at least one child.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Leaf -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Leaf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#RootNode"/>
+        <rdfs:comment>A Leaf is a Node without any children.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#InternalNode"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Leaf"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#RootNode"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasLeftChild"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasRightChild"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasLeftChild"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasRightChild"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Node is the basic element of a binary tree. It can be linked to up to two child Nodes.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#RootNode -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#RootNode">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasParent"/>
+                        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#hasChild"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#Node"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A RootNode is the root element of a binary tree. All other Nodes are descendents of the RootNode.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

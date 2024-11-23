@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:material="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:process_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#"
+     xmlns:software_system="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#"
+     xmlns:mathematical_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
+     xmlns:numerical_solution_strategy="https://github.com/sustainable-processes/ontology/OntoCAPE/model/numerical_solution_strategy.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/numerical_solution_strategy.owl"/>
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl"/>
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+  </terms:license>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#accomodates_pmc -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#accomodates_pmc">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PME"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_model_solution_strategy -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_model_solution_strategy">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#SolverComponent"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/numerical_solution_strategy.owl#ModelSolutionStrategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_process_model -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_process_model">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ModelComponent"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#ProcessModel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ChemicalReactionPackage -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ChemicalReactionPackage">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#MaterialModelComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#MaterialModelComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#MaterialModelComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ModelComponent"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#ProcessModel"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_process_model"/>
+                        <owl:allValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
+                                <owl:allValuesFrom>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
+                                            </owl:Restriction>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:allValuesFrom>
+                            </owl:Restriction>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ModelComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ModelComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_process_model"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#NumericsComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#NumericsComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PME -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PME">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#accomodates_pmc"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#PMC"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#SolverComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#SolverComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#NumericsComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#implements_model_solution_strategy"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ThermoComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#ThermoComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/process_modeling_software.owl#MaterialModelComponent"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

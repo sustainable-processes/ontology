@@ -1,0 +1,636 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:phase_system="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl"
+     xmlns:process_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#"
+     xmlns:property_models="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl"
+     xmlns:mathematical_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+</terms:license>
+        <rdfs:comment>The ontolog module &apos;property_models&apos; represents  mathematical correlations for the compuation of certain PhysicalQuantities, such as vapor pressure correlations or activity coefficient models.    
+The following classes and relations from other ontology modules are used within &apos;property_models&apos;:
+ 
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#ActivityCoefficient&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#Density&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#DiffusionCoefficient&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#DynamicViscosity&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#FugacityCoefficient&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PartialMolarEnthalpy&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PartialMolarVolume&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseEquilibriumRatio&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystemProperty&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#SpecificEnthalpy&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#ThermalConductivity&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#TransportPhenomenaProperty&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#IntensiveThermodynamicStateVariable&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#SurfaceTension&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#PropertyModel&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable&quot;/&gt;
+</rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ActivityCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ActivityCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#ActivityCoefficient"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#AdsorptionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#DensityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#FugacityCoefficientModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for an ActivityCoefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#AdsorptionEquilibriumConstantModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#AdsorptionEquilibriumConstantModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#DensityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#FugacityCoefficientModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for an adsorption equilibrium constant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#AdsorptionRateCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#AdsorptionRateCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ChemicalKineticsPropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeterogeneousReactionRateCoefficientModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HomogeneousReactionRateCoefficientModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a surface reaction rate coefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ChemicalKineticsPropertyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ChemicalKineticsPropertyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#PropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseInterfaceTransportPropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a chemical kinetics coefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#DensityModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#DensityModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#Density"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#FugacityCoefficientModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of Density.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#FugacityCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#FugacityCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#FugacityCoefficient"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of FugacityCoefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatCapacityModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the heat capacity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatTransferCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeatTransferCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseInterfaceTransportPropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#MassTransferCoefficientModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a heat transfer coefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeterogeneousReactionRateCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HeterogeneousReactionRateCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ChemicalKineticsPropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HomogeneousReactionRateCoefficientModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for an adsorption equilibrium constant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HomogeneousReactionRateCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#HomogeneousReactionRateCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ChemicalKineticsPropertyModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a chemical reaction rate coefficient</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#IntensiveThermodynamicStateVariable"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SurfaceTensionModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for an IntensiveThermodynamicStateVariable.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#TransportPhenomenaProperty"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SurfaceTensionModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a TransportPhenomenaProperty</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#MassDiffusionCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#MassDiffusionCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#DiffusionCoefficient"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermalConductivityModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ViscosityModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for an intra-phase mass DiffusionCoefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#MassTransferCoefficientModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#MassTransferCoefficientModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseInterfaceTransportPropertyModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a phase interface mass transfer coefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarEnthalpyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PartialMolarEnthalpy"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the PartialMolarEnthalpy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PartialMolarVolumeModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PartialMolarVolume"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the PartialMolarVolume.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseEquilibriumRatioModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseEquilibriumRatio"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of a PhaseEquilibriumRatio.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseInterfaceTransportPropertyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#PhaseInterfaceTransportPropertyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#PropertyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a phase interface transport coefficient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ReactionEquilibriumConstantModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for a reaction equilibrium constant.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificEnthalpyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#SpecificEnthalpy"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the SpecificEnthalpy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificGibbsFreeEnergyModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SpecificGibbsFreeEnergyModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the SpecificGibbsFreeEnergy.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SurfaceTensionModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#SurfaceTensionModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#SurfaceTension"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A PropertyModel that provides a correlation for computation of the SurfaceTension.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermalConductivityModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermalConductivityModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#ThermalConductivity"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ViscosityModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the ThermalConductivity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ThermoModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#PropertyModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystemProperty"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A PropertyModel that provides a correlation for a PhaseSystemProperty not relevant to rates.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntensiveThermodynamicStateModel"/>
+        <rdfs:comment>A PropertyModel that provides a correlation for the computation of the vapor pressure.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ViscosityModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ViscosityModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#IntraPhaseTransportPropertyModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#DynamicViscosity"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A PropertyModel that provides a correlation for the DynamicViscosity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#Antoine -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#Antoine">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#VapourPressureModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#NRTL -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#NRTL">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ActivityCoefficientModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#UNIFAC -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#UNIFAC">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ActivityCoefficientModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#WILSON -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#WILSON">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/property_models.owl#ActivityCoefficientModel"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

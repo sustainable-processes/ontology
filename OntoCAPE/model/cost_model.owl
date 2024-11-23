@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:econ_perf="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#"
+     xmlns:cost_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl"
+     xmlns:mathematical_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl"/>
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+    </terms:license>
+        <rdfs:comment>The ontology module &apos;cost_model&apos; establishes some mathematical models for predicting the (investment) costs of chemical plants. 
+The follwoing classes and relations from other ontology modules are used within &apos;cost_model&apos;:
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models&quot;/&gt;
+    </rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CapacityFCIModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CapacityFCIModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FixedCapitalInvestmentModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#Detailed-itemFCIModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel"/>
+        <rdfs:comment>CapacityFCIModels are based on FixedCapitalInvestments of past design projects that are similar to the current ChemicalProcessSystem. Besides, some relating factors (e.g. turn-over ratio), exponential power ratios or more complex relations are given.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CostModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CostModel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#EconomicPerformanceModel"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>A MathematicalModel to estimate the investment costs of a ChemicalProcessSystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#Detailed-itemFCIModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#Detailed-itemFCIModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FixedCapitalInvestmentModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel"/>
+        <rdfs:comment>Detailed-itemFCIModel requires careful determination of all individual direct and indirect cost items. For such models, extensive data and large amounts of engineering time are necessary. Therefore, this type of estimate is almost exclusively prepared by contractors bidding on complete and all-inclusive work from finished drawings and specifications.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#DifferentialFactorialModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#DifferentialFactorialModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#GlobalFactorialModel"/>
+        <rdfs:comment>Within DifferentialFactorialModels, different factors are used for the costs of the FixedCapitalInvestment. Examples are modular estimate models, where individual modules consisting of a group of similar items are considered separately and their costs are then summarized.
+[Guthrie, K.: Data and techniques for preliminary capital cost estimation, Chemical Engineering 24 (3), pp. 114-142, 1969]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#EconomicPerformanceModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#EconomicPerformanceModel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>An EconomicPerformanceModel models the EconomicPerformance of a ChemicalProcessSystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FixedCapitalInvestmentModel"/>
+        <rdfs:comment>FactorialFCIModels rely on the fact that the percentages of the different costs within the FixedCapitalInvestment are similar for different ChemicalProcessSystems. Based on one or several known costs (for example the equipment costs), the fixed capital investment is estimated using some factors that are derived from cost records, published data and experience.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FixedCapitalInvestmentModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FixedCapitalInvestmentModel">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CostModel"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#hasModelVariable"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#correspondsToQuantity"/>
+                                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>FixeCapitalInvestmentModels (FCI models) are MathematicalModels that are used to estimate the FixedCapitalInvestment of a ChemicalProcessSystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#GlobalFactorialModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#GlobalFactorialModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#FactorialFCIModel"/>
+        <rdfs:comment>A GlobalFactorialModel estimates the FixedCapitalIinvestment by multiplying the basic EquipmentCost by some factor. This factor depends among other things on the type of chemical process involved, required materials of construction, and the location of the ChemicalProcessSystem realization. Examples for global factors are the ones proposed by [Lang47]. This model can be extended to calculate the TotalCapitalInvestment. 
+
+Lang, H.J.: Engineering Approach to Preliminary Cost Estimates, Chemical Engineering, pp. 130-133 (September 1947).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#PowerFactorModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#PowerFactorModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CapacityFCIModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#StepCountingModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#TurnoverRatioModel"/>
+        <rdfs:comment>The PowerFactorModel relates the fixed capital investment of a new chemical process system to the one of similar, previously constructed systems by an exponential power ratio. 
+[Peters, M.S. and Timmerhaus, K.D.: Plant Design and Economics for Chemical Engineers, McGraw-Hill, New York, 1991]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#SixTenthsRuleModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#SixTenthsRuleModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#PowerFactorModel"/>
+        <rdfs:comment>The SixTenthsRuleModel is a PowerFactorModel with x=0.6.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#StepCountingModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#StepCountingModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CapacityFCIModel"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#TurnoverRatioModel"/>
+        <rdfs:comment>StepCountingModel are based on the assumption that the FixedCapitalInvestment can be estimated from the number of process steps (depending on the specific approach, composite process steps or unit operations and reactions are used) multiplied with the costs per process step and some correcting factors. The costs of the process steps are estimated from their capacity and some other factors.
+[Vogt, M.: Neuere Methoden der Investitionsrechnung in der Chemischen Industrie, Diploma thesis, Technische Universität Berlin, 1996]</rdfs:comment>
+        <rdfs:label>Step Counting Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#TurnoverRatioModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#TurnoverRatioModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#CapacityFCIModel"/>
+        <rdfs:comment>The TurnoverRatioModel is a fast evaluation method for order-of-magnitude estimates. The turnover ratio is defined as the ratio of gross annual sales to FixedCapitalInvestment. Values of turnover ratios for different types of chemical processes are for example given by [Schembra91] and [Vogt96].
+Schembra, M. (1991). Daten und Methoden zur Vorkalkulation des Anlagekapitalbedarfs von Chemieanlagen, PhD thesis Technische Universität Berlin.
+Vogt, M. (1996). Neuere Methoden der Investitionsrechnung in der Chemischen Industrie, Diploma thesis, Technische Universität Berlin.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#Unit-costEstimateModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#Unit-costEstimateModel">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/cost_model.owl#DifferentialFactorialModel"/>
+        <rdfs:comment>Unit-costEstimateModels are based on detailed estimates of the main purchase costs for a CPS_realization (either obtained from quotations or from cost records and published data).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#ModelVariable"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

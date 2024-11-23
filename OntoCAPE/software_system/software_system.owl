@@ -1,0 +1,860 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl"
+     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:phys_dim="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
+     xmlns:technical_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"/>
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+  </terms:license>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_CPU_speed_lower_limit -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_CPU_speed_lower_limit">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements"/>
+        <rdfs:label>has_CPU_speed_lower_limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_speed_lower_limit -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_speed_lower_limit">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InternetConnection"/>
+        <rdfs:label>has_connection_speed_lower_limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hard_disk_capacity_lower_limit -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hard_disk_capacity_lower_limit">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements"/>
+        <rdfs:label>has_hard_disk_capacity_lower_limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_device -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_device">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareDevice"/>
+        <rdfs:label>has_hardware_device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_requirements -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_requirements">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements"/>
+        <rdfs:label>has_hardware_requirements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_internet_connection -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_internet_connection">
+        <rdfs:label>has_internet_connection</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_memory_size_lower_limit -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_memory_size_lower_limit">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements"/>
+        <rdfs:label>has_memory_size_lower_limit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform"/>
+        <rdfs:label>has_middleware_platform</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_name -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_name">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#COM"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CORBA"/>
+                </owl:oneOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label>has_middleware_platform_name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_name -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_name">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#UNIX"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#WINDOWS"/>
+                </owl:oneOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:label>has_operating_system_name</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_price -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_price">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price"/>
+        <rdfs:label>has_price</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_price_value -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_price_value">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price"/>
+        <rdfs:label>has_price_value</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_single_computer_requirements -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_single_computer_requirements">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements"/>
+        <rdfs:label>has_single_computer_requirements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_system_identification -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_system_identification">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:comment>Workaround for QCR</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#implements_interface -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#implements_interface">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface"/>
+        <rdfs:label>implements_interface</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_associated_to_distribution_approach -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_associated_to_distribution_approach">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#DistributionApproach"/>
+        <rdfs:label>is_associated_to_distribution_approach</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_compliant_to_standard -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_compliant_to_standard">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard"/>
+        <rdfs:label>is_compliant_to_standard</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_defined_in_standard -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_defined_in_standard">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard"/>
+        <rdfs:label>is_defined_in_standard</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_middleware_platform -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_middleware_platform">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform"/>
+        <rdfs:label>is_runable_on_middleware_platform</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_operating_system -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_operating_system">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+        <rdfs:label>is_runable_on_operating_system</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#requires_supporting_software_system -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#requires_supporting_software_system">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:label>requires_supporting_software_system</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#supports_interface -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#supports_interface">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface"/>
+        <rdfs:label>supports_interface</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CSLID -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CSLID">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasSystemIdentification"/>
+        <rdfs:comment>the Global Unique Identifier for COM classes.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MIME-Type -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MIME-Type">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#distributionMedia -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#distributionMedia">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#distributionMode -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#distributionMode">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasCapacityLimitation -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasCapacityLimitation">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasSystemIdentification -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasSystemIdentification">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_means -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_means">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InternetConnection"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>MODEM, LAN, etc.</rdfs:comment>
+        <rdfs:label>has_connection_means</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_description -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_description">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has_description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_version -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_version">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has_middleware_platform_version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_version -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_version">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has_operating_system_version</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_platform_bits -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_platform_bits">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>has_platform_bits</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_size -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_size">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>has_size</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_title -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_title">
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>has_title</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#maximumNumberOfUsers -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#maximumNumberOfUsers">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasCapacityLimitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#maximumNumberOfVariables -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#maximumNumberOfVariables">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasCapacityLimitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorContact -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorContact">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorDigitalSignature -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorDigitalSignature">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorElectronicMail -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorElectronicMail">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorName -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorName">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorWebsite -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#vendorWebsite">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasVendorInformation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#versionNumber -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#versionNumber">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#DistributionApproach -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#DistributionApproach">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PropertySet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareDevice -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareDevice"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#SystemRequirements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_device"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_internet_connection"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InternetConnection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_single_computer_requirements"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#versionNumber"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InternetConnection -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InternetConnection">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_speed_lower_limit"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_connection_means"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>InternetConnection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_name"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_middleware_platform_version"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MiddlewarePlatform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_name"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_operating_system_version"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>OperatingSystem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SingleComputerRequirements">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#SystemRequirements"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_CPU_speed_lower_limit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hard_disk_capacity_lower_limit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_memory_size_lower_limit"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_platform_bits"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SingleComputerRequirements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_defined_in_standard"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_defined_in_standard"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#versionNumber"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareRequirements -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareRequirements">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#SystemRequirements"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#TechnicalSystem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_operating_system"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_requirements"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#HardwareRequirements"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_price"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#Price"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#implements_interface"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_compliant_to_standard"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_middleware_platform"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#MiddlewarePlatform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#is_runable_on_operating_system"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#requires_supporting_software_system"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#supports_interface"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#SoftwareInterface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_system_identification"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_hardware_requirements"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#hasDistributionApproach"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_description"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_size"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#has_title"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#versionNumber"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CAPE-OPEN -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CAPE-OPEN">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#InterfaceStandard"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#COM -->
+
+    <owl:Thing rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#COM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CORBA -->
+
+    <owl:Thing rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#CORBA">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#UNIX -->
+
+    <owl:Thing rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#UNIX">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+    </owl:Thing>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#WINDOWS -->
+
+    <owl:Thing rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#WINDOWS">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/software_system/software_system.owl#OperatingSystem"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

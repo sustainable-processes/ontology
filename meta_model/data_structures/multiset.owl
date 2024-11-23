@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl"
+     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/meta_model/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl"
+     xmlns:mereology="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+</terms:license>
+        <rdfs:comment>The ontology module &apos;multiset&apos; defines a design pattern for the implementation of a multiset.
+The following classes and relations from other ontology modules are used within &apos;multiset&apos;:
+   
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#N-aryRelation&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Aggregate&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasTargetObject&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasOrigin&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOriginOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#relationAttribute&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf&quot;/&gt;
+</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#relationAttribute"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#relationAttribute -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#relationAttribute"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#hasMultiplicity -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#hasMultiplicity">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOriginOf"/>
+        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+        <rdfs:comment>The relation hasMultiplicity points from a Member to a Multiplicity that indicates the number of its appearances in a particular Multiset.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasOrigin"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+        <rdfs:comment>The relation indicatesMultiplicityOf assigns a Multiplicity to the corresponding Member.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#refersToMultiset -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#refersToMultiset">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasTargetObject"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset"/>
+        <rdfs:comment>The relation refersToMultiset assigns a Multiplicity to the corresponding Multiset.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasOrigin -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasOrigin"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasTargetObject -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#hasTargetObject"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOriginOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOriginOf"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity -->
+
+    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#hasMultiplicity"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#hasMultiplicity"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Member is an element of a Multiset; it has a multiplicity that indicates the number of its appearances in the multiset.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiplicity">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#UniqueOriginN-aryRelation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#refersToMultiset"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#refersToMultiset"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#indicatesMultiplicityOf"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#refersToMultiset"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Multiplicity of a Member indicates the number of its appearances in the associated Multiset.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Multiset">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Aggregate"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#Member"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Multiset differs from an ordinary Aggregate in that each of its parts (Members) has an associated Multiplicity, which indicates the number of its appearances in the Multiset.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#UniqueOriginN-aryRelation -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#UniqueOriginN-aryRelation"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Aggregate -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Aggregate"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#multiplicity">
+        <rdfs:comment>The attribute &apos;multiplicity&apos; indicates the numerical value of a Multiplicity.</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

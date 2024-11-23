@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:plant="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"
+     xmlns:fixture="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+    </terms:license>
+        <rdfs:comment>The ontology module &apos;fixture&apos; provides specializations of fixtures that are applicable to chemical process systems.
+The following classes and relations from other ontology modules are used within &apos;fixture&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems&quot;/&gt;
+    </rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHeatedLength -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHeatedLength">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube"/>
+        <rdfs:comment>The relation hasHeatedLength refers to the length of a tube at which a heat transfer is achieved.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHoleDiameter -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHoleDiameter">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <rdfs:comment>The relation hasHoleDiameter refers the diameter of a hole in a tray.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasNumberOfTubes -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasNumberOfTubes">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTEMAShellType -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTEMAShellType">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Shell"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TEMAShellType"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTrayArea -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTrayArea">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <rdfs:comment>The relation hasTrayArea refers to the operational area of a tray.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasWeirHeight -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasWeirHeight">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <rdfs:comment>The relation hasWeirHeight refers to the weir height of all trays in a tray column.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Shell"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+        <rdfs:comment>A Jacket is a shell-like fixture which surrounds a vessel to provide a space which usually contains fluids for heating or cooling.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Shell -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Shell">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTEMAShellType"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+        <rdfs:comment>A Shell is a Fixture as the shell part of a shell-tube unit in a Shell-TubeApparatus.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+        <rdfs:comment>A Stirrer is a fixture which is installed in a Vessel to improve the mixing of the fluid in the vessel through its rotation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TEMAShellType -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TEMAShellType">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHoleDiameter"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasTrayArea"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasWeirHeight"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+        <rdfs:comment>A Tray is a fixture which is installed in a TrayColumn to provide a stage for holding up fluids.  
+A further classification of trays is beyond the current scope of OntoCAPE.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tube">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHeatedLength"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHeatedLength"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasHeatedLength"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle"/>
+        <rdfs:comment>A Tube is a Fixture as part of a TubeBundle.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#TubeBundle">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Fixture"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasNumberOfTubes"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasNumberOfTubes"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#hasNumberOfTubes"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A TubeBundle is a Fixture as part of a unit in a ShellTubeApparatus.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

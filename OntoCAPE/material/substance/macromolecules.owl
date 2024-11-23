@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:polymers="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#"
+     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#"
+     xmlns:macromolecules="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+</terms:license>
+        <rdfs:comment>The ontology module &apos;macromolecules&apos; provides a few examples of macromolecules in order to demonstrate the usage of the module &apos;polymers&apos;.
+The following classes and relations are instantiated within &apos;macromolecules&apos;:  
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#name&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly&quot;/&gt;
+</rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#name -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#name"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule"/>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#End-Group_of_Polyethylene__glycol -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#End-Group_of_Polyethylene__glycol">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group"/>
+        <substance:molecularFormula>·CH2-OH</substance:molecularFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#Polyethylene__glycol -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#Polyethylene__glycol">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule"/>
+        <substance:CAS_RegistryNumber>25322-68-3</substance:CAS_RegistryNumber>
+        <substance:molecularFormula>HO-(CH2-CH2-O)n-H</substance:molecularFormula>
+        <substance:name>PEG</substance:name>
+        <substance:name>PEO</substance:name>
+        <substance:name>Polyethylene glycol</substance:name>
+        <substance:name>Polyethylene oxide</substance:name>
+        <system:containsDirectly rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#End-Group_of_Polyethylene__glycol"/>
+        <system:containsDirectly rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#RepeatingUnit_of_Polyethylene__glycol"/>
+        <rdfs:comment>44.05          C2H4O</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#RepeatingUnit_of_Polyethylene__glycol -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/macromolecules.owl#RepeatingUnit_of_Polyethylene__glycol">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit"/>
+        <substance:molecularFormula>·CH2-O-CH2·</substance:molecularFormula>
+        <rdfs:comment></rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

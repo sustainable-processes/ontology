@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:pro_con_sys="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+    </terms:license>
+        <rdfs:comment>The ontology module &apos;measuring_instrument&apos; provides specializations for measuring instruments that are applicable to chemical process systems.
+The following classes and relations from other ontology modules are used within &apos;measuring_instrument&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument&quot;/&gt;
+    </rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#BimetalT-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#BimetalT-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>BimetalT-sensor is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#ExpansionT-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#ExpansionT-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>ExpansionT-sensor is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#F-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#F-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+        <rdfs:comment>F-sensor is applied for flow measuring.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#L-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#L-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+        <rdfs:comment>L-sensor is applied for level measuring.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#P-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#P-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+        <rdfs:comment>P-sensor is applied for preasure measuring.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Pt100 -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Pt100">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>Pt100 is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Pyrometer -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Pyrometer">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>Pyrometer is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Q-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Q-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+        <rdfs:comment>Q-sensor is applied for quality measuring (quality quantity, like concentration, conductivity).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#QuartzCristalT-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#QuartzCristalT-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>QuartzCrystalT-sensor is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#SegerCone -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#SegerCone">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>SegerCone is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+        <rdfs:comment>T-sensor is applied for temperature measuring.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Thermocouple -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#Thermocouple">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_equipment/measuring_instrument.owl#T-Sensor"/>
+        <rdfs:comment>Thermocouple is a specific type of temperature measuring sensor.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

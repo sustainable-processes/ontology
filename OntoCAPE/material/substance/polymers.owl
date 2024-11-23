@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:polymers="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl"
+     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl"
+     xmlns:molecular_structure="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+</terms:license>
+        <rdfs:comment>The ontology module &apos;polymers&apos; extends the module &apos;molecular_structure&apos; by concepts for the description of macromolecular structures.    
+The following classes, relations, and individuals from other ontology modules are used within &apos;polymers&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#MolecularGroup&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#Molecule&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly&quot;/&gt;
+</rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#MolecularGroup"/>
+        <rdfs:comment>A MolecularGroup comprising a part of the essential structure of a Macromolecule.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#End-Group">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit"/>
+        <rdfs:comment>An End-Group is a ConstitutionalUnit that is an extremity of a Macromolecule or OligomerMolecule (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#Molecule"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Polymer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerMolecule"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#OligomerMolecule"/>
+        <rdfs:comment>A Molecule of high MolecularWeight, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low MolecularWeight (McNaught &amp; Wilkinson, 1997)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Monomer -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Monomer">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerMolecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Oligomer"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Polymer"/>
+        <rdfs:comment>A Substance composed of MonomerMolecules (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerMolecule -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerMolecule">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#Molecule"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Monomer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#OligomerMolecule"/>
+        <rdfs:comment>A Molecule which can undergo polymerization thereby contributing ConstitutionalUnits to the essential structure of a Macromolecule (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerUnit -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#MonomerUnit">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit"/>
+        <rdfs:comment>A MonomerUnit is the largest ConstitutionalUnit contributed by a single monomer molecule (IUPAC)
+A MonomerUnit is a ConstitutionalUnit resulting from a monomer residue which has been polymerized. 
+In contrast, a RepeatingUnit, is the shortest sequence that can be found repeatedly in a Macromolecule.
+(aka structural unit)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Oligomer -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Oligomer">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#OligomerMolecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Polymer"/>
+        <rdfs:comment>A Substance composed of OligomerMolecules (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#OligomerMolecule -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#OligomerMolecule">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/molecular_structure.owl#Molecule"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Oligomer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Molecule of intermediate MolecularWeight, the structure of which essentially comprises a small plurality of units derived, actually or conceptually, from Molecules of lower MolecularWeight. A Molecule is regarded as having an intermediate MolecularWeight if it has properties which do vary significantly with the removal of one or a few of the units. (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Polymer -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Polymer">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#Macromolecule"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A Substance composed of Macromolecules (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#RepeatingUnit">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/polymers.owl#ConstitutionalUnit"/>
+        <rdfs:comment>A RepeatingUnit is the shortest ConstitutionalUnit that can be found repeatedly in a Macromolecule.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

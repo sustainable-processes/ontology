@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl"
+     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:process="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process.owl#"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:network_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#"
+     xmlns:process_control="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+   </terms:license>
+        <rdfs:comment>The ontology module &apos;process_control&apos; provides concepts based on control theory for process control architectures for a chemical process system.
+The following classes and relations from other ontology modules are used within &apos;process_control&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process.owl#ProcessStep&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo&quot;/&gt;
+
+The following classes and relations from the Meta Model are refined within &apos;process_control&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#ValueSet&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet&quot;/&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOfType&quot;/&gt;
+
+   </rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasControlLoopArchitecture -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasControlLoopArchitecture">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOfType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoop"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>The relation hasControlLoopArchitecture refers from a equipment to the corresponding fixture.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOfType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+        <rdfs:comment>The relation hasLinearity refers from a FunctionBlock to its LinearityValueType.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasResponseCharacteristics -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasResponseCharacteristics">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#isOfType"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>The relation hasResponseCharacteristics refers from the function block to its ResponseCharacteristicsValueType.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#refersToProcessStep -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#refersToProcessStep">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlledSystem"/>
+        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process.owl#ProcessStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Control Components are connected by actionlines, which represents a specific type of information collection. Actionlines are treated analogous to topological arcs.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ActuatorFunction -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ActuatorFunction">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:comment>ActuatorFunction transforms the output of the Controller into the input of the ControlledSystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#BranchingPoint -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#BranchingPoint">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+        <rdfs:comment>BranchingPoint describes the splitting of a controlled system.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ComparingElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ComparingElement">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+        <rdfs:comment>ComparingElement indicates whether a action line influence as a feed back or directly.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#DirectedActionline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#DirectedActionline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>ControlComponent comprises the different features required for describing control.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoop -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoop">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasControlLoopArchitecture"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasControlLoopArchitecture"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasControlLoopArchitecture"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>ControlSystem is a functional subsystem of ProcessControlSystem and deals with functional describtion of the control system</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>ControlLoopArchitectureValue type comprises the different types of control loop structures. ControlLoopType  is an enumeration of its instances OpenLoopControl, FeedForwardControl, StateFeedbackControl, OutputFeedbackControl and ComplexControlLoop.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlledSystem -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlledSystem">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:comment>ControlledSystem describes the functionality of the system to be controlled.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:comment>Controller represents the different types of controller.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#DirectedActionline -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#DirectedActionline">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>DirectedActionline is a specialization of Actionline and likewise the connecting element between ControlComponents. However, the usage of DirectedActionline implies the indication of a directed connection.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasResponseCharacteristics"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasResponseCharacteristics"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>FunctionBlock have a distinct transfer function, which can be used to characterize them.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlockLinearType -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlockLinearType">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#hasLinearity"/>
+                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#linear"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearControlLoop -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearControlLoop">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoop"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlockLinearType"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Actionline"/>
+                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlockLinearType"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#linear"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#nonlinear"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#ValueSet"/>
+        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>Linearity is an enumeration of its instances linear and Non-linear.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+        <rdfs:comment>ResponseCharacteristics describe the several characteristics how a controlled system may react on a manipulation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ReversingElement -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ReversingElement">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlComponent"/>
+        <rdfs:comment>ReversingElement describes the functionality of lead.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#SensorFunction -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#SensorFunction">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FunctionBlock"/>
+        <rdfs:comment>The SensorFunction comprises the entire function of recording, relaying, and writing out ProcessQuantities within other ControlComponents.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ComplexControlLoop -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ComplexControlLoop">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>ComplexControlLoop is not yet specifically defined control loop which may be composed of other control loop elements.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#D-Element -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#D-Element">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>D-Element is a derivative part of a controller which is applied for smoother control trajectories since it reduces the magnitude of the overshoot produced by the integral component.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FeedForwardControl -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FeedForwardControl">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>A system which exhibits FeedForwardControl responds to a measured disturbance in a pre-defined way before the disturbance effects the control variable.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#I-Element -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#I-Element">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>I-Element is a integrative part of a controller which force the signal to approach the setpoint quicker than a proportional controller alone and eliminate steady state error.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OpenLoopControl -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OpenLoopControl">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>OpenLoopControl is a type of architecture which computes its input into a system using only the current state and its model of the system.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OutputFeedbackControl -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OutputFeedbackControl">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>OutputFeedbackControl is applied when the output of the system is fed back into the system as part of its input.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#P-Element -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#P-Element">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>P-Element is a proportional part of a controller which responds to a change in the process variable proportional to the current measured error value.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PID-Element -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PID-Element">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>PID-Element combines all features provided by the P-, I- and D-Element of a controller.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PT1-Element -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PT1-Element">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ResponseCharacteristicsVT"/>
+        <rdfs:comment>PT1-Element deals with time-delay in controlled system to avoid instability.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#StateFeedbackControl -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#StateFeedbackControl">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ControlLoopArchitectureVT"/>
+        <rdfs:comment>StateFeedbackControl is a method employed in feedback control.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#linear -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#linear">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#nonlinear"/>
+        <rdfs:comment>Linear refers to the behavior of the ControlledSystem.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#nonlinear -->
+
+    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#nonlinear">
+        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#LinearityVT"/>
+        <rdfs:comment>Nonlinear refers to the behavior of the ControlledSystem which cannot be described as a linear function of the state of that system.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#ComplexControlLoop"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#FeedForwardControl"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OpenLoopControl"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#OutputFeedbackControl"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#StateFeedbackControl"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#D-Element"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#I-Element"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#P-Element"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PID-Element"/>
+            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#PT1-Element"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#"
+     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:plant="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
+     xmlns:pro_con_sys="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl"
+     xmlns:network_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#"
+     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl">
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl"/>
+        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl"/>
+        <terms:license>Copyright (C) [2009] [Andreas Wiesner]
+                This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+                This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+                You should have received a copy of the GNU General Public License along with this program; if not, see &lt;http://www.gnu.org/licenses/&gt;.
+    </terms:license>
+        <rdfs:comment>The ontology module &apos;process_control_system&apos; realizes a chemical process system in terms of technical equipment for operation.
+The following classes and relations from other ontology modules are used within &apos;process_control_system&apos;:
+
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrument&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Plant&quot;&gt;
+
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf&quot;&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters&quot;/&gt;
+  
+    </rdfs:comment>
+        <owl:versionInfo>2.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem -->
+
+    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem">
+        <owl:versionInfo>TODO: definfion eintragen</owl:versionInfo>
+    </rdf:Description>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf -->
+
+    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf">
+        <owl:versionInfo>TODO: definition eintragen</owl:versionInfo>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Plant -->
+
+    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Plant">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrument"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+        <rdfs:comment>ControllingDevice is a direct subsystem of ProcessControlSystem and represents all controlling units in the process required</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#DirectedInformationProcessing -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#DirectedInformationProcessing">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#Human-ProcessCommunicationDevice -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#Human-ProcessCommunicationDevice">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+        <rdfs:comment>Human-ProcessCommunicationDevice is a direct subsystem of ProcessControlDevice and descibes the human-machine interface by means of hardware</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#Human-ProcessCommunicationDevice"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>InformationProcessingDevice is a direct subsystem of ProcessControlSystem and describes the processing by means of hardware components</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument">
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrument"/>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+        <rdfs:comment>MeasuringDevice is a direct subsystem of ProcessControlSystem and represents all measuring units in the process required</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#Human-ProcessCommunicationDevice"/>
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#DirectedInformationProcessing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#DirectedInformationProcessing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlDevice"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>ProcessControlSystem is a constitutional subsystem of the OperationSystem and describes the realization of the operating subsystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlSystem -->
+
+    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ProcessControlSystem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#Human-ProcessCommunicationDevice"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#InformationProcessing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#MeasuringInstrument"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:comment>ProcessControlSystem is a constitutional subsystem of the OperationSystem and describes the realization of the operating subsystem.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
