@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:network_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:network_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -20,18 +20,18 @@
         <rdfs:comment>The ontology module &apos;network_system&apos; introduces a structured representation for general network systems, which is applicable in such different domains as biology, sociology, and engineering.
 The following classes and relations of other ontology modules are used within &apos;network_system&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem&quot;&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem&quot;&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf&quot;/&gt;
 </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -49,60 +49,60 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#enters -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isPredecessorOf"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#enters">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isPredecessorOf"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasInput"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
         <rdfs:comment>The relation Enters interconnects an ingoing DirectedConnection  to its target Device.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasInput -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasInput">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
         <rdfs:comment>The relation hasInput connects a Device to an incoming DirectedConnection.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasOutput -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isPredecessorOf"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasOutput">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isPredecessorOf"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#leaves"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
         <rdfs:comment>The relation hasOutput connects a Device to an outgoing DirectedConnection.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isPredecessorOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isPredecessorOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isPredecessorOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isPredecessorOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -111,24 +111,24 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isSuccessorOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isSuccessorOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isSuccessorOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isSuccessorOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -137,31 +137,31 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#leaves -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#leaves">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#isSuccessorOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
         <rdfs:comment>The relation Leaves connects an outgoing DirectedConnection to its source Device.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#sameAs -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#sameAs -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#sameAs">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#sameAs"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#sameAs">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#sameAs"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -182,19 +182,19 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -202,14 +202,14 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -217,12 +217,12 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -230,81 +230,81 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
         <rdfs:comment>Connections are those elements of a NetworkSystem that represent the linkages between the Devices.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port"/>
         <rdfs:comment>A ConnectionPoint represents the interface through which a Connection can be connected to the Port of a device. ConnectionPoints may have certain attributes that further specify the type of connection. ConnectionPoints are subsystems of the corresponding Connection or DirectedConnection, respectively.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasInput"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasInput"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#hasOutput"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -312,14 +312,14 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -327,12 +327,12 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -340,8 +340,8 @@ The following classes and relations of other ontology modules are used within &a
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Devices are the crucial elements of a NetworkSystem, holding the major functionality.</rdfs:comment>
@@ -349,37 +349,37 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#DirectedConnection">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#DirectedConnection">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#enters"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#leaves"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#enters"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#enters"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#leaves"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#leaves"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -388,19 +388,19 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#EnvironmentConnection -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#EnvironmentConnection -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#EnvironmentConnection">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#EnvironmentConnection">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                         <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -408,13 +408,13 @@ The following classes and relations of other ontology modules are used within &a
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -422,20 +422,20 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#NetworkSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#NetworkSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#NetworkSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#NetworkSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -443,19 +443,19 @@ The following classes and relations of other ontology modules are used within &a
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Connection"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Connection"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -466,31 +466,31 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Port">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Port">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#Device"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#Device"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/network_system.owl#ConnectionPoint"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>

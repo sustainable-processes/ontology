@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:maths="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:maths="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:SI_unit="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl"
-     xmlns:phys_dim="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:SI_unit="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl"
+     xmlns:phys_dim="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -22,23 +22,23 @@
         <rdfs:comment>The ontology module &apos;SI_unit&apos; intorduces the base units of the SI system and introduces a method to derive further units from these.
 The following classes, relations, and individuals from other ontology modules are used within &apos;SI_unit&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
 
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature&quot;/&gt;
-&lt;phys_dim:BaseDimension       rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature&quot;/&gt;
+&lt;phys_dim:BaseDimension       rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time&quot;/&gt;
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -56,9 +56,9 @@ The following classes, relations, and individuals from other ontology modules ar
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension -->
 
-    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
     
 
 
@@ -79,19 +79,19 @@ The following classes, relations, and individuals from other ontology modules ar
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
         <rdfs:comment>The relation isDefinedBy links an SI_DerivedUnit to a Node, which represents the right hand side of a definition equation for the SI_DerivedUnit.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild"/>
     
 
 
@@ -106,25 +106,25 @@ The following classes, relations, and individuals from other ontology modules ar
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PrefixedDerivedUnit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PrefixedDerivedUnit -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PrefixedDerivedUnit">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PrefixedDerivedUnit">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasLeftChild"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue"/>
-                                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue"/>
+                                                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -135,49 +135,49 @@ The following classes, relations, and individuals from other ontology modules ar
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
         <rdfs:comment>A PrefixedDerivedUnit is an SI_Unit with an SI_Prefix. Examples are kJ (kilo-joule), hPa (hecto-pascal), or mm (milli-meter).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
         <rdfs:comment>The seven base units of the SI system are: ampere, candela, kelvin, kilogram, meter, mole, and second (BIPM, 2006).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#isDefinedBy"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -186,36 +186,36 @@ The following classes, relations, and individuals from other ontology modules ar
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
         <rdfs:comment>An SI prefix can be used to prefix any SI unit to produce a multiple or submultiple of the original unit (BIPM, 2006). 
 So far (as of 2006), the following 20 prefixes have been approved by the General Conference on Weights and Measures: 
 yotta, zetta, exa, peta, tera, giga, mega, kilo, hecto, deca, deci, centi, milli, micro, nano, pico, femto, atto, zepto, yocto.</rdfs:comment>
@@ -223,44 +223,44 @@ yotta, zetta, exa, peta, tera, giga, mega, kilo, hecto, deca, deci, centi, milli
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Unit">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_DerivedUnit"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
         <rdfs:comment>An SI_Unit is Unit that complies with the SI system of units (cf. BIPM, 2006).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
     
 
 
@@ -275,429 +275,429 @@ yotta, zetta, exa, peta, tera, giga, mega, kilo, hecto, deca, deci, centi, milli
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
         <rdfs:comment>ampere
 The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 meter apart in vacuum, would produce between these conductors a force equal to 2e-7 newton per meter of length (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/ampere.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
         <rdfs:comment>kelvin
 The kelvin is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/kelvin.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA- -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA- -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA-">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA-">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–18 
 symbol:  a</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
         <rdfs:comment>candela
 The candela is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540e12 hertz an that has a radiant intensitiy in that direction of 1/683 watt per steradian (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/candela.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–2 
 symbol:  c</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e1 
 symbol:  da</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor:   1e–1 
 symbol:  d</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e18 
 symbol: E</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–15 
 symbol:  f</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e9 
 symbol: G</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e2 
 symbol:  h</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
         <rdfs:comment>kilogram
 The kilogram is the unit of mass; it is equal to the mass of the international prototype of the kilogram (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/kilogram.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e3 
 symbol:  k</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
         <rdfs:comment>meter
 The meter is the length of the path travelled by light in a vacuum during a time interval of 1/299,792,458 of a second (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/metre.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e6 
 symbol: M</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–6 
 symbol:  µ</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–3 
 symbol:  m</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
         <rdfs:comment>mole
 The mole is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12.
 When the mole is used, the elementary entities must be specified and may be atoms, molecules, ions, electrons, other particles, or specified groups of such particles.
@@ -706,91 +706,91 @@ When the mole is used, the elementary entities must be specified and may be atom
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–9 
 symbol:  n</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e15 
 symbol: P</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–12 
 symbol:  p</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
-        <system:hasDimension rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_BaseUnit"/>
+        <system:hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
         <rdfs:comment>second
 The second is the duration of 9,192,631,770 periods of the radiation corresponing to the transition between the two hyperfine levels of the ground state of the caesium-133 atom (http://www.bipm.fr/en/si/si_brochure/chapter2/2-1/2-1-1/second.html).</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e12 
 symbol: T</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–24 
 symbol:  y</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e24
 symbol: Y</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e–21 
 symbol:  z</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SI_Prefix"/>
         <rdfs:comment>factor: 1e21 
 symbol: Z</rdfs:comment>
     </owl:NamedIndividual>
@@ -808,70 +808,70 @@ symbol: Z</rdfs:comment>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#A"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#K"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#cd"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kg"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#m"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mol"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#s"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO-"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#AMPERE"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ATTO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CANDELA"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#CENTI-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#DECI-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#EXA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#FEMTO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#GIGA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#HECTO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KELVIN"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#KILOGRAM"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MEGA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#METER"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MICRO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MILLI-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#MOLE"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#NANO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PETA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#PICO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#SECOND"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#TERA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOCTO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#YOTTA-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZEPTO-"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#ZETTA-"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#atto"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#centi"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deca"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#deci"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#exa"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#femto"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#giga"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#hecto"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#kilo"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#mega"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#micro"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#milli"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#nano"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#peta"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#pico"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#tera"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yocto"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#yotta"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zepto"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/SI_unit/SI_unit.owl#zetta"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>

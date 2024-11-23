@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"
-     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl"
+     xmlns:fc="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:meta="https://github.com/sustainable-processes/ontology/meta_model/meta_model.owl#"
+     xmlns:meta="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/meta_model.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"
-     xmlns:mereology="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/meta_model.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl"
+     xmlns:mereology="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/meta_model.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -22,12 +22,12 @@
         <rdfs:comment>The ontology module &apos;system&apos; constitutes the top level of the OntoCAPE ontology. It establishes the fundamental design paradigm of general systems theory according to which the ontology is organized- To this end, the module introduces the constitutive systems-theoretical and physicochemical primitives, such as System, Property, PhysicalQuantity, PhysicalDimension, etc., and specifies their mutual relations.
 The following classes and relations of the Meta Model are used (i.e., refined) within the &apos;system&apos; module:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation&quot;/&gt;
 </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -62,33 +62,33 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprises -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprises -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprises">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprises">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PropertySet"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PropertySet"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
         <rdfs:comment>The relation Comprises indicates the members of a PropertySet.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprisesDirectly -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprisesDirectly -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprisesDirectly">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprises"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprisesDirectly">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprises"/>
         <rdfs:comment>The relation ComprisesDirectly indicates the direct members of a PropertySet.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#contains -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#contains -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#contains">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#contains">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>The Contains relation constitutes an alternative to the hasSubsystem relation. It should be used instead of hasSubsystem 
 -   if the hasSubsystem relation causes performance problems, or
 -   if only one side of the aggregation relation is of interest, namely the indication of the constituting elements of a supersystem</rdfs:comment>
@@ -96,11 +96,11 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#containsDirectly -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#contains"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#containsDirectly">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#contains"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
         <rdfs:comment>The relation containsDirectly is an alternative to the hasDirectSubsystem relation. It should be used instead of hasDirectSubsystem 
 -   if the hasDirectSubsystem relation causes performance problems, or
 -   if only one side of the aggregation relation is of interest, namely the indication of the direct constituents Supersystem.</rdfs:comment>
@@ -108,26 +108,26 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
         <rdfs:comment>The relation hasAspectSystem designates the AspectSystems of a System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -136,295 +136,295 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension">
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
         <rdfs:comment>The relation hasDimension specifies the PhysicalDimension of a PhysicalQuantity or a UnitOfMeasure.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
         <rdfs:comment>The relation hasDirectSubsystem refers from a Supersystem to its direct Subsystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
         <rdfs:comment>The relation hasProperty indicates the Properties of a System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
         <rdfs:comment>The relation hasSubsystem denotes the relation between a Supersystem and its Subsystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
         <rdfs:comment>The relation hasUnitOfMeasure establishes the UnitOfMeasure of a ScalarValue.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:comment>The hasValue relation designates the Values of a Property.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isBackdropOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isBackdropOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isBackdropOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isBackdropOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:comment>The isBackdropOf relation states that the Value serves as a backdrop for the observation of some other Value.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>The relation isComposedOf indicates the non-sharable, direct Subsystem of a Supersystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:comment>The relation isConnectedTo represents topological connectivity between System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect"/>
         <rdfs:comment>The relation isConsideredUnderAspectOf indicates the type of an AspectSystem by referring to an instance of the Aspect class.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>The relation isDirectlySubsystemOf links a Subsystem to its direct Supersystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConnectedTo"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:comment>The relation isDirectlyConnectedTo denotes the direct topological connectedness of two System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:comment>The relation isDirectlyRelatedTo subsumes all kinds of direct inter-system relations.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>The relation isExclusivelySubsystemOf links a non-sharable Subsystem to its direct Supersystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isModeledBy -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isModeledBy -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isModeledBy">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Model"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isModeledBy">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Model"/>
         <rdfs:comment>The relation isModeldBy points from a modeled System to its Model.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:comment>The isObservedAgainstBackdrop relation maps a Value against a backdrop Value.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:comment>The relation isPropertyOf links a Property instance to a System instance.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:comment>The relation isRelatedTo subsumes all kinds of inter-system relations.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>The relation isSubsystemOf refers from a Subsystem to its Supersystem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
         <rdfs:comment>The relation isValueOf assigns a Value to a Property.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Model"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Model"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:comment>The relation &apos;models&apos; links a Model to the modeled System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QualitativeValue"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QualitativeValue"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
         <rdfs:comment>The relation qualitativeValue specifies the actual value of a QualitativeValue.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
         <rdfs:comment>The relation representsAspectOf links a AspectSystem to its respective System.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#object-featureRelation"/>
     
 
 
@@ -439,19 +439,19 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#numericalValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#numericalValue -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#numericalValue">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#numericalValue">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
         <rdfs:comment>The attribute numericalValue specifies the number part of a QuantitativeValue.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#value -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#value -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#value">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QualitativeValue"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#value">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QualitativeValue"/>
         <rdfs:comment>The Value attribute holds the actual value of a QualitativeValue.</rdfs:comment>
     </owl:DatatypeProperty>
     
@@ -468,87 +468,87 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
         <rdfs:comment>An aspect represents a particular viewpoint of a system. An instance of the aspect class explicitly denominates that viewpoint.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isConsideredUnderAspectOf"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface"/>
         <rdfs:comment>An AspectSystem is an ExclusiveSubsystem that contains those system components, relationships, and constraints that are of relevance to a particular Aspect.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#CompositeSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#CompositeSystem">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isComposedOfSubsystem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A CompositeSystem is a System that is composed of other Systems.</rdfs:comment>
@@ -556,15 +556,15 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ConstantProperty -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ConstantProperty -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ConstantProperty">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ConstantProperty">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                         <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -575,51 +575,51 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ElementarySystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ElementarySystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ElementarySystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ElementarySystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
                     <owl:Class>
-                        <owl:complementOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+                        <owl:complementOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ElementarySystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ElementarySystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
         <rdfs:comment>An ElementarySystem is a Subsystem that cannot further partitioned into Subsystems.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isExclusivelySubsystemOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An ExclusiveSubsystem is a direct subsystem of a CompositeSystem; it cannot be a direct subsystem of any other System.</rdfs:comment>
@@ -627,63 +627,63 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExtensibleValueSet -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExtensibleValueSet -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExtensibleValueSet">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExtensibleValueSet">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
         <rdfs:comment>An ExtensibleValueSet is a ValueEnumeration which, unlike a FixedValueSet, is not defined by an (exhaustive) enumeration of its instances. Thus, the number of possible values may change at run time.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem"/>
         <rdfs:comment>A Subsystem at the first level of decomposition.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
         <rdfs:comment>A FixedValueSet is a ValueEnumeration that is defined by an exhaustive enumeration of its instances. Thus, the number of possible values is fixed.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#InternalProperties -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#InternalProperties -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#InternalProperties">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#InternalProperties">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -697,24 +697,24 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Model -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Model -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Model">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Model">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A Model is a system that is used to enable the understanding of or the command over the original system, or to replace the original system. Model system and original system share certain characteristics that are of relevance to the task at hand (Wüsteneck, 1963).</rdfs:comment>
@@ -722,25 +722,25 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalConstant -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalConstant -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalConstant">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalConstant">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -749,45 +749,45 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
         <rdfs:comment>A PhysicalDimension is a characteristic associated with PhysicalQuantities and UnitsOfMeasure for purposes of organization or differentiation. Mass, length, and force are exemplary instances of PhysicalDimension.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalQuantity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalQuantity -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalQuantity">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalQuantity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -796,65 +796,65 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:comment>The Property class represents the individual properties (traits, qualities) of a System, which distinguish the System from others. Typical examples are Size, Color, or Weight, which are modeled as subclasses of Property.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PropertySet -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PropertySet -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PropertySet">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PropertySet">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprisesDirectly"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprisesDirectly"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#comprisesDirectly"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#comprisesDirectly"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
             </owl:Restriction>
         </owl:disjointWith>
         <rdfs:comment>A Property set constitutes an (unordered) collection of Properties, which may be of different types.</rdfs:comment>
@@ -862,21 +862,21 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QualitativeValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QualitativeValue -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QualitativeValue">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QualitativeValue">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
                                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#value"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#value"/>
                                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -884,11 +884,11 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
                                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#value"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#value"/>
                                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -900,11 +900,11 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#value"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#value"/>
                         <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
                     </owl:Restriction>
                 </owl:unionOf>
@@ -912,34 +912,34 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#qualitativeValue"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
         <rdfs:comment>A QualitativeValue is a value that is not (numerically) quantifiable.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A QuantitativeValue is the value of a PhysicalQuantity.</rdfs:comment>
@@ -947,14 +947,14 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalQuantity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A ScalarQuantity is a scalar-valued PhysicalQuantity.</rdfs:comment>
@@ -962,31 +962,31 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#numericalValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#numericalValue"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -995,20 +995,20 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FirstLevelSubsystem"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SecondLevelSubsystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A Subsystem at the second level of decomposition.</rdfs:comment>
@@ -1016,50 +1016,50 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
         <rdfs:comment>A Subsystem is a System that is a constituent of another System.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A Supersystem is a System that has some constituent Subsystems.</rdfs:comment>
@@ -1067,24 +1067,24 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#contains"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#contains"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -1092,40 +1092,40 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isModeledBy"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Model"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isModeledBy"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Model"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isRelatedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
         <rdfs:comment>The System class denotes all kind of systems, which may be physical or abstract</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemEnvironment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemEnvironment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemEnvironment">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemEnvironment">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Class>
                                 <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                                 </owl:oneOf>
                             </owl:Class>
                         </owl:complementOf>
@@ -1133,22 +1133,22 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
-                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasSubsystem"/>
+                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                             </owl:Restriction>
                         </owl:complementOf>
                     </owl:Class>
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
-                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isSubsystemOf"/>
+                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                             </owl:Restriction>
                         </owl:complementOf>
                     </owl:Class>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1156,7 +1156,7 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
         <owl:disjointWith>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:disjointWith>
@@ -1165,19 +1165,19 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExclusiveSubsystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#SystemInterface"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#SystemInterface"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1186,28 +1186,28 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#TopLevelSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#TopLevelSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#TopLevelSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#TopLevelSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Supersystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Supersystem"/>
                     <owl:Class>
-                        <owl:complementOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Subsystem"/>
+                        <owl:complementOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Subsystem"/>
                     </owl:Class>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#TopLevelSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectSubsystemOf"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1216,25 +1216,25 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1243,31 +1243,31 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isBackdropOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isBackdropOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Value"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isObservedAgainstBackdrop"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Value"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Property"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Property"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isValueOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isValueOf"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1276,38 +1276,38 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ValueEnumeration">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ValueEnumeration">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ExtensibleValueSet"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ExtensibleValueSet"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace"/>
         <rdfs:comment>A ValueEnumeration specifies a (finite) set of possible values of a QualitativeValue.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#FeatureSpace"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#NonExhaustiveValueSet"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
     
 
 
@@ -1322,10 +1322,10 @@ The following classes and relations of the Meta Model are used (i.e., refined) w
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#S">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#S">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:comment>Sample system; used for the construction of the query classes SystemEnvironment and InternalProperties.</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>

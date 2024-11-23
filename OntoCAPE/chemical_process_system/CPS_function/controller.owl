@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:process_control="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl"/>
+     xmlns:process_control="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -19,7 +19,7 @@
         <rdfs:comment>The ontology module &apos;controller&apos; provides a specialization of the concept controller.
 The following classes and relations from other ontology modules are used within &apos;controller&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller&quot;/&gt;
     
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
@@ -38,82 +38,82 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#AdaptiveController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#AdaptiveController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#AdaptiveController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#AdaptiveController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
         <rdfs:comment>An AdaptiveController is a Controller that can modify its behavior in response to changes in the dynamics of the process and the character of the disturbances.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#DynamicMatrixController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#DynamicMatrixController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#DynamicMatrixController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#DynamicMatrixController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
         <rdfs:comment>The idea of a DynamicMatrixController is that the input variables are subjected to measured perturbations and the dynamic effects on the outputs are noted for prediction of the future response of the processes during on-line operation.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#FuzzyController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#FuzzyController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#FuzzyController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#FuzzyController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController"/>
         <rdfs:comment>A FuzzyController is a controller that is based on fuzzy logic - a mathematical system that analyzes analog input values in terms of logical variables that take on continuous values between 0 and 1.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#InternalModelController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#InternalModelController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#InternalModelController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#InternalModelController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
         <rdfs:comment>An InternalModelController (IMC) automatically corrects the gain of the internal model control when the settings in the internal model are improper.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Knowledge-basedController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
         <rdfs:comment>A KnowledgeBasedController (KBC) used in process control systems has the characteristic that it does not need the mathematical model and furthermore gains its parameters by means of practical data.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
         <rdfs:comment>A Model-basedController used in process control systems is based on mathematical models.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#PIDController -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#PIDController -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#PIDController">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#PIDController">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
         <rdfs:comment>A proportional-integral-derivative controller (PIDController) is a generic control loop feedback mechanism widely used in industrial control systems.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#SmithPredictor -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#SmithPredictor -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#SmithPredictor">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#SmithPredictor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#Model-basedController"/>
         <rdfs:comment>A SmithPredictor is a controller that is particularly designed to cope with time delay the controlled system by adding extra internal loops.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#StateRegulator -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#StateRegulator -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/controller.owl#StateRegulator">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/controller.owl#StateRegulator">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process_control.owl#Controller"/>
     </owl:Class>
 </rdf:RDF>
 

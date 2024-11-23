@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
-     xmlns:plant="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:array="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/array.owl#"
+     xmlns:plant="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"
-     xmlns:fixture="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#"
-     xmlns:geometry="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl"
-     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
-     xmlns:apparatus="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
-     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl"
+     xmlns:fixture="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#"
+     xmlns:geometry="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl"
+     xmlns:multiset="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/multiset.owl#"
+     xmlns:apparatus="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -27,22 +27,22 @@
         <rdfs:comment>The ontology module &apos;apparatus&apos; provides some specializations of the apparatuses applicable to a chemical process system.
 The following classes and relations from other ontology modules are used within &apos;apparatus&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems&quot;/&gt;
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -60,44 +60,44 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasNumberOfPlantItems"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
         <rdfs:comment>The relation hasNumberOfTrays refers to the quantity of trays installed in a column.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -105,16 +105,16 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -134,49 +134,49 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasOutsideDiameter"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -185,14 +185,14 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#HeatedTank -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#HeatedTank -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#HeatedTank">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#HeatedTank">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Jacket"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A HeatedTank is a vessel with a heating Jacket.</rdfs:comment>
@@ -200,59 +200,59 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#PackedColumn -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#PackedColumn -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#PackedColumn">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#PackedColumn">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn"/>
         <rdfs:comment>A PackedColumn is a column which is filled out with some packing material.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#ShellTubeApparatus">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTEMAClass"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInParallel"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfShellsInSeries"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -261,14 +261,14 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#StirredTank -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#StirredTank -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#StirredTank">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#StirredTank">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Stirrer"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A StirredTank is a Vessel with a stirrer inside.</rdfs:comment>
@@ -276,34 +276,34 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TEMAClass">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayColumn">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Column"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasFixture"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/fixture.owl#Tray"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasNumberOfTrays"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Multiplicity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#hasTrayNumberingConvention"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A TrayColumn is a column which internally has a number of Trays installed along the vertical dimension of the column.</rdfs:comment>
@@ -311,45 +311,45 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#Vessel">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Apparatus"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#QuantitativeValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#hasShapeRepresentation"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/geometry/geometry.owl#Cylinder"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasHeight"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#hasInsideDiameter"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -369,18 +369,18 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#bottom-up -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#bottom-up -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#bottom-up">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#bottom-up">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#top-down -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#top-down -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#top-down">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#top-down">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant_equipment/apparatus.owl#TrayNumberingConvention"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

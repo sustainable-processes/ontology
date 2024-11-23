@@ -1,38 +1,38 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:laws="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#"
+     xmlns:laws="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
-     xmlns:plant="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:array="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/array.owl#"
+     xmlns:plant="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:process="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_function/process.owl#"
-     xmlns:behavior="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#"
-     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
-     xmlns:flash_unit="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#"
-     xmlns:phase_system="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#"
-     xmlns:process_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#"
-     xmlns:splitting_unit="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/splitting_unit.owl#"
-     xmlns:chemical_reactor="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#"
-     xmlns:technical_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#"
-     xmlns:heat_transfer_unit="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#"
-     xmlns:mathematical_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#"
-     xmlns:process_unit_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl"
-     xmlns:distillation_system="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
-     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
-     xmlns:chemical_process_system="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/chemical_process_system.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:process="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_function/process.owl#"
+     xmlns:behavior="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#"
+     xmlns:multiset="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/multiset.owl#"
+     xmlns:flash_unit="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#"
+     xmlns:phase_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl#"
+     xmlns:process_model="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#"
+     xmlns:splitting_unit="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/splitting_unit.owl#"
+     xmlns:chemical_reactor="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#"
+     xmlns:technical_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/technical_system.owl#"
+     xmlns:heat_transfer_unit="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#"
+     xmlns:mathematical_model="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#"
+     xmlns:process_unit_model="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl"
+     xmlns:distillation_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
+     xmlns:chemical_process_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/chemical_process_system.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -41,30 +41,30 @@
         <rdfs:comment>The ontology module &apos;process_unit_models&apos; provides a collection of mathematical models that model the behavioral aspect of ProcessUnits.
 The following classes, relations, and individuals from other ontology modules are used within &apos;process_unit_model&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#Submodel&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#ProcessModel&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#Submodel&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#ProcessModel&quot;/&gt;
 
 process_model;#hasModelingPrinciple&quot;/&gt;
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#NonEquilibriumLaw&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#ReactionKineticsLaw&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#NonEquilibriumLaw&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#ReactionKineticsLaw&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple&quot;&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple&quot;&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon&quot;/&gt;
 
-&lt;behavior:FlowPattern rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#ideal_mixing&quot;/&gt;
-&lt;behavior:FlowPattern rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#turbulent_flow&quot;/&gt;
-&lt;process_model:ModelingPrinciple rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#first-principles&quot;/&gt;
+&lt;behavior:FlowPattern rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#ideal_mixing&quot;/&gt;
+&lt;behavior:FlowPattern rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#turbulent_flow&quot;/&gt;
+&lt;process_model:ModelingPrinciple rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#first-principles&quot;/&gt;
 </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -82,17 +82,17 @@ process_model;#hasModelingPrinciple&quot;/&gt;
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple">
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
     
 
 
@@ -107,70 +107,70 @@ process_model;#hasModelingPrinciple&quot;/&gt;
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#NonEquilibriumLaw -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#NonEquilibriumLaw -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#NonEquilibriumLaw"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#NonEquilibriumLaw"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#CSTRModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#CSTRModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#CSTRModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#CSTRModel">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
                         <owl:allValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon"/>
-                                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#ideal_mixing"/>
+                                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon"/>
+                                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#ideal_mixing"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -181,124 +181,124 @@ process_model;#hasModelingPrinciple&quot;/&gt;
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#ReactionKineticsLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#ReactionKineticsLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#first-principles"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#first-principles"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#FlashUnitModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#FlashUnitModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#FlashUnitModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#FlashUnitModel">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                        <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/flash_unit.owl#FlashUnitBehavior"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#PhaseEquilibriumLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#first-principles"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#first-principles"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#NonEquilibriumLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#NonEquilibriumLaw"/>
             </owl:Restriction>
         </owl:disjointWith>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#HeatTransferUnitModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#HeatTransferUnitModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#HeatTransferUnitModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#HeatTransferUnitModel">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/heat_transfer_unit.owl#HeatTransferUnitBehavior"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#PFRModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#PFRModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#PFRModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#PFRModel">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ChemicalReactorModel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
                         <owl:allValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/chemical_reactor.owl#ChemicalReactorBehavior"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon"/>
-                                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#turbulent_flow"/>
+                                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/technical_system.owl#hasPhenomenon"/>
+                                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#turbulent_flow"/>
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -309,26 +309,26 @@ process_model;#hasModelingPrinciple&quot;/&gt;
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#ReactionKineticsLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#ReactionKineticsLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#first-principles"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#first-principles"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Model of an ideal Plug Flow Reactor</rdfs:comment>
@@ -336,20 +336,20 @@ process_model;#hasModelingPrinciple&quot;/&gt;
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#ProcessModel"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#ProcessModel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                        <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_behavior/behavior.owl#MaterialAmount"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -358,47 +358,47 @@ process_model;#hasModelingPrinciple&quot;/&gt;
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#TrayByTrayDistillationColumnModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#TrayByTrayDistillationColumnModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#TrayByTrayDistillationColumnModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#TrayByTrayDistillationColumnModel">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#ProcessUnitModel"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#models"/>
-                        <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#models"/>
+                        <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/process_units/distillation_system.owl#DistillationSystemBehavior"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#EnergyConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/laws.owl#MassConservationLaw"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDirectSubsystem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/laws.owl#MassConservationLaw"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_model.owl#first-principles"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#hasModelingPrinciple"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_model.owl#first-principles"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#TrayModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#TrayModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#TrayModel">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#Submodel"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/process_unit_model.owl#FlashUnitModel"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#TrayModel">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#Submodel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/process_unit_model.owl#FlashUnitModel"/>
     </owl:Class>
 </rdf:RDF>
 

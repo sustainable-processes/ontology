@@ -1,24 +1,24 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:array="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/array.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:material="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl"
-     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
-     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#"
-     xmlns:phase_system="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#"
-     xmlns:technical_system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/technical_system.owl#"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
-     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:material="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl"
+     xmlns:multiset="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/multiset.owl#"
+     xmlns:substance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#"
+     xmlns:phase_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl#"
+     xmlns:technical_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/technical_system.owl#"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -27,14 +27,14 @@
         <rdfs:comment>The ontology module &apos;material&apos; assembles the top-level classes of the partial model &apos;material&apos; and defines their mutual relations.
 The following classes and relations from other ontology modules are used within &apos;material&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf&quot;/&gt;
 </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -52,43 +52,43 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsicCharacteristics -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsicCharacteristics -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsicCharacteristics">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsicCharacteristics">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#representsIntrinsicCharacteristicsOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#representsThermodynamicBehaviorOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#representsThermodynamicBehaviorOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#representsThermodynamicBehaviorOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#AspectSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#representsThermodynamicBehaviorOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#representsAspectOf"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#AspectSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamicBehavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamicBehavior -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamicBehavior">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamicBehavior">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasAspectSystem"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material"/>
     </owl:ObjectProperty>
     
 
@@ -104,32 +104,32 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#Material">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#Material">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsicCharacteristics"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsicCharacteristics"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsicCharacteristics"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsicCharacteristics"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamicBehavior"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/phase_system/phase_system.owl#PhaseSystem"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -147,19 +147,19 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsic_characteristics -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsic_characteristics -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#intrinsic_characteristics">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamic_behavior"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#intrinsic_characteristics">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamic_behavior"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamic_behavior -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamic_behavior -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/material.owl#thermodynamic_behavior">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#Aspect"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/material.owl#thermodynamic_behavior">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#Aspect"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 

@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:array="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/array.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
-     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#"
-     xmlns:reaction_type="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl"
-     xmlns:substance_class="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#"
-     xmlns:chemical_species="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl"
-     xmlns:reaction_mechanism="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
-     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl"/>
+     xmlns:multiset="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/multiset.owl#"
+     xmlns:substance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#"
+     xmlns:reaction_type="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl"
+     xmlns:substance_class="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#"
+     xmlns:chemical_species="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl"
+     xmlns:reaction_mechanism="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -27,26 +27,26 @@
 </terms:license>
         <rdfs:comment>The ontology module &apos;reaction_type&apos; defines some important types of chemical reactions, such as esterification or hydrohalogenation. 
 The following classes, relations, and individuals from other ontology modules are used within &apos;reaction_type&apos;:
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#ChemicalReaction&quot;/&gt;  
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alkene&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Amine&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Haloalkane&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Imine&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#ChemicalReaction&quot;/&gt;  
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alkene&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Amine&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Haloalkane&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Imine&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid&quot;/&gt;
  
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant&quot;/&gt;
     
-&lt;substance:ChemicalSpecies rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide&quot;/&gt;
-&lt;substance:ChemicalSpecies rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water&quot;/&gt;</rdfs:comment>
+&lt;substance:ChemicalSpecies rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide&quot;/&gt;
+&lt;substance:ChemicalSpecies rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water&quot;/&gt;</rdfs:comment>
     </owl:Ontology>
     
 
@@ -62,18 +62,18 @@ The following classes, relations, and individuals from other ontology modules ar
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#AldolReaction -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#AldolReaction -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#AldolReaction">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#AldolReaction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -81,12 +81,12 @@ The following classes, relations, and individuals from other ontology modules ar
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
@@ -94,12 +94,12 @@ The following classes, relations, and individuals from other ontology modules ar
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -107,25 +107,25 @@ The following classes, relations, and individuals from other ontology modules ar
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
         <rdfs:comment>The aldol reaction is an important carbon-carbon bond forming reaction in organic chemistry [1, 2, 3] involving the addition of an enol or enolate anion to an aldehyde or ketone [4, 5, 6].  
 The enol or enolate is itself generated from a carbonyl compound, often an aldehyde or ketone, using acid or base.
 It is a multi-step reaction that occurs either in enol-mode or enolate-mode. 
@@ -158,36 +158,36 @@ Enolate mode:
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Alkylimino-de-oxo-bisubstitution">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Imine"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Imine"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Amine"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Amine"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Amine"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Amine"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -195,12 +195,12 @@ Enolate mode:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
         <rdfs:comment>&quot;Alkylimino-de-oxo-bisubstitution is the reaction of carbonyl compounds with amines to imines [...] With primary amines water is lost in an elimination reaction to an imine [...] Secondary amines do not loose water because they do not have a proton available and
 instead they often react further to an aminal or when an α-carbonyl proton is present to an enamine.&quot; [Wikipedia, 2006]
 
@@ -210,28 +210,28 @@ R-NH2     + (C=O)R2                  ⇌ R(C=N)R2 + H2O</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Baeyer-VilligerOxidation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Baeyer-VilligerOxidation -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Baeyer-VilligerOxidation">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Baeyer-VilligerOxidation">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid"/>
                             </owl:Restriction>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -240,31 +240,31 @@ R-NH2     + (C=O)R2                  ⇌ R(C=N)R2 + H2O</rdfs:comment>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water"/>
                     </owl:Restriction>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -277,30 +277,30 @@ R&apos;-CO-R&apos;&apos; + H2O2            ⇌  R&apos;-COO-R&apos;&apos; + H2O<
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#CyanohydrinReaction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation"/>
         <rdfs:comment>A Cyanohydrin reaction is an organic reaction by an aldehyde or ketone with a cyanide anion or a nitrile to form a cyanohydrin. 
 
 Aldehyde or ketone  + nitrile    + X    ⇌ cyanohydrin + Y
@@ -309,16 +309,16 @@ R&apos;-(C=O)-R&apos;&apos;        + R-C≡N    + X    ⇌ R&apos;-(HO-C-C≡N)-
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Esterification -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Esterification -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Esterification">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Esterification">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -337,32 +337,32 @@ Esters can be formed in several ways:
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#EsterificationOfCarboxylicAcidAndAlcohol -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#EsterificationOfCarboxylicAcidAndAlcohol -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#EsterificationOfCarboxylicAcidAndAlcohol">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#EsterificationOfCarboxylicAcidAndAlcohol">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -370,19 +370,19 @@ Esters can be formed in several ways:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -392,54 +392,54 @@ R-OH    + R&apos;-COOH       ⇌ R-COO-R&apos;    + H2O</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Hydrohalogenation">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                         <owl:allValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:allValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                         <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -451,43 +451,43 @@ R-CH=CH2    + HX        → R-CHX-CH3</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#ChemicalReaction"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#OrganicReaction">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#ChemicalReaction"/>
         <rdfs:comment>Organic reactions are chemical reactions involving organic compounds [Wikipedia, 2006]</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Transesterification -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Transesterification -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Transesterification">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Transesterification">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_type.owl#Esterification"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                         <owl:allValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
-                                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:allValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasReactant"/>
                         <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -495,18 +495,18 @@ R-CH=CH2    + HX        → R-CHX-CH3</rdfs:comment>
         </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -514,7 +514,7 @@ R-CH=CH2    + HX        → R-CHX-CH3</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/reaction_mechanism.owl#hasProduct"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -526,81 +526,81 @@ R&apos;-COO-R&apos;&apos;  + R-OH  ⇌ R-COO-R&apos;    + R&apos;&apos;-OH</rdfs
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alcohol"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Aldehyde"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alkene -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alkene -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Alkene"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Amine -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Amine -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Amine"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Amine"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarbonylCompound"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#CarboxylicAcid"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Cyanohydrin"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ester"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ester"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Haloalkane -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Haloalkane -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Haloalkane"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#HydrogenHalide"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Imine -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Imine -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Imine"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Imine"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#Ketone"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance_class.owl#PeroxyAcid"/>
     
 
 
@@ -615,15 +615,15 @@ R&apos;-COO-R&apos;&apos;  + R-OH  ⇌ R-COO-R&apos;    + R&apos;&apos;-OH</rdfs
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Hydrogen__peroxide"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/chemical_species.owl#Water"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/chemical_species.owl#Water"/>
 </rdf:RDF>
 
 

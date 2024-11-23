@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:array="https://github.com/sustainable-processes/ontology/meta_model/data_structures/array.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:array="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/array.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:der_dim="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#"
-     xmlns:multiset="https://github.com/sustainable-processes/ontology/meta_model/data_structures/multiset.owl#"
-     xmlns:phys_dim="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
-     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
-     xmlns:mathematical_relation="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:der_dim="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#"
+     xmlns:multiset="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/multiset.owl#"
+     xmlns:phys_dim="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
+     xmlns:substance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+     xmlns:mathematical_relation="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -26,23 +26,23 @@
         <rdfs:comment>The ontology module &apos;substance&apos;provides essential concepts for the description of pure substances and mixtures, primarily at the macroscopic scale.
 The following classes, relations, individuals from other ontology modules are used within &apos;substance&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#containsDirectly&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf&quot;/&gt;
 
-&lt;der_dim:Mechanics           rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure&quot;/&gt;
-&lt;phys_dim:DerivedDimension   rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume&quot;/&gt;
-&lt;phys_dim:DerivedDimension   rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass&quot;/&gt;
-&lt;phys_dim:BaseDimension      rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature&quot;/&gt;
+&lt;der_dim:Mechanics           rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure&quot;/&gt;
+&lt;phys_dim:DerivedDimension   rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume&quot;/&gt;
+&lt;phys_dim:DerivedDimension   rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass&quot;/&gt;
+&lt;phys_dim:BaseDimension      rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature&quot;/&gt;
 
 </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
@@ -61,23 +61,23 @@ The following classes, relations, individuals from other ontology modules are us
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMolecularStructure -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMolecularStructure">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isDirectlyRelatedTo"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
         <rdfs:comment>The relation hasMolecularStructure points from a ChemicalSpecies (describing a substance form a  macroscopic perspective) to the corresponding MolecularEntity (describing the same pure substance from a molecular perspective).</rdfs:comment>
     </owl:ObjectProperty>
     
@@ -94,10 +94,10 @@ The following classes, relations, individuals from other ontology modules are us
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A CAS_RegistryNumber is a uniqueSubstanceID issued by the Chemical Abstracts Service (CAS) a division of the American Chemical Society. A CAS_RegistryNumber can be assigned to ChemicalSpecies as well as to some Mixtures. A CAS_RegistryNumber includes up to 9 digits, which are separated into 3 groups by hyphens (xxxxxx-xx-x). The first part of the number, starting from the left, has up to 6 digits; the second part has 2 digits. The final part consists of a single check digit or checksum that makes it easy to determine whether a CAS number is valid or not. 
@@ -106,10 +106,10 @@ See http://www.cas.org/EO/regsys.html for details.</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#InChI -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#InChI -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#InChI">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#InChI">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The IUPAC International Chemical Identifier (InChI) is a non-proprietary identifier for chemical substances that can be used in printed and electronic data sources thus enabling easier linking of diverse data and information compilations (Stein et al., 2003). InChI does not require the establishment of a registry system. Unlike the CAS Registry System, it does not depend on the existence of a database of unique substance records to establish the next number for any new MolecularEntity being assigned an InChI. It uses a set of IUPAC structure conventions, and rules for normalization and canonicalization of the structure representation to establish a unique label for a MolecularEntity.
@@ -118,20 +118,20 @@ For reference, see http://www.iupac.org/inchi/</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>SMILES (Simplified Molecular Input Line Entry System) is a line notation for unambiguously describing the structure of chemical molecules using ASCII strings.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#WLN -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#WLN -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#WLN">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#WLN">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The Wiswesser line notation (WLN), also known as Wiswesser line formula, is a precise and concise means of expressing structural formulas as character strings. The basic idea is to use letter symbols to denote functional groups and numbers to express the lengths of chains and the sizes of rings. For details, refer to Smith (1968).</rdfs:comment>
@@ -139,34 +139,34 @@ For reference, see http://www.iupac.org/inchi/</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#canonicalSMILES -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#canonicalSMILES -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#canonicalSMILES">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#canonicalSMILES">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>canonicalSMILES is the version of the SMILES specification that applies canonicalization rules to ensure that each ChemicalSpecies has a single, unique SMILES representation.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#canonicalStructuralFormula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
         <rdfs:comment>A canonicalStructuralFomula is a structuralFormula that is generated  by means of canonicalization algorithms to obtain a unique representation of a MolecularEntity.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula">
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula">
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -176,10 +176,10 @@ For reference, see http://www.iupac.org/inchi/</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#empiricalFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#empiricalFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#empiricalFormula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#empiricalFormula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>An empiricalFormula is a chemicalFormula that indicates the relative number of each constituting chemical element of a MolecularEntity.
 In an empiricalFormula, the letters representing the chemical elements are listed according to the following convention: In organic compounds, C is always cited first, H second and then the rest, in alphabetical order. In non-carbon-containing compounds, strict alphabetical order is adhered to.</rdfs:comment>
@@ -187,31 +187,31 @@ In an empiricalFormula, the letters representing the chemical elements are liste
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericSMILES -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericSMILES -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericSMILES">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES"/>
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericSMILES">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES"/>
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>isomericSMILES is the version of the SMILES specification that includes extensions to support the specification of isotopes, chirality, and configuration about double bonds.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>An isomericStructuralFormula is a structuralFormula that allows to distinguish the different isomers of a MolecularEntity.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#molecularFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#molecularFormula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A molecularFormula is a chemicalFormula that specifies the (absolute) number of constituting atoms of a MolecularEntity, without indicating how they are linked. 
@@ -222,20 +222,20 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#name -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#name -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#name">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substanceID"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#name">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substanceID"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>The different names of a Substance. Both trivial and systematic names can be indicated here.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#structuralFormula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#structuralFormula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>A structuralFormula is a chemicalFormula that supplies information about the types of bonds and the spatial arrangement of the atoms of a MolecularEntity using a linear string notation.</rdfs:comment>
@@ -243,19 +243,19 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substanceID -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substanceID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substanceID">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substanceID">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
         <rdfs:comment>A substanceID is a precise identifier for a Substance. A substanceID must be unambiguous, but it is not necessarily unique.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substanceID"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#uniqueSubstanceID">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substanceID"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>A uniqueSubstanceID is a unique identifier for a Substance.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -273,44 +273,44 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#PseudoComponent"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#PseudoComponent"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Mixture"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Mixture"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
         <rdfs:comment>The class ChemicalComponent subsumes ChemicalSpecies and PseudoComponents.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#isPropertyOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -319,78 +319,78 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMolecularStructure"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#InChI"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#InChI"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#WLN"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#WLN"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#empiricalFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#empiricalFormula"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#molecularFormula"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#PseudoComponent"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#PseudoComponent"/>
         <rdfs:comment>A ChemicalSpecies represents pure Substances at the macroscopic scale. It consists of an “ensemble of chemically identical molecular entities […]. The term is applied equally to a set of chemically identical atomic or molecular structural units in a solid array. […] The wording of the definition […] is intended to embrace both cases such as graphite, sodium chloride or a surface oxide, where the basic structural units may not be capable of isolated existence, as well as those cases where they are.” (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalMolarVolume -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalMolarVolume -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalMolarVolume">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalMolarVolume">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -403,40 +403,40 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molar_volume"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalPressure"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalTemperature"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalPressure"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
         <rdfs:comment>The CriticalMolarVolume is the volume of one mole of a substance at the CriticalTemperature and CriticalPressure.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalPressure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalPressure -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalPressure">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalPressure">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -449,39 +449,39 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalTemperature"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
         <rdfs:comment>The minimum pressure which would suffice to liquefy a Substance at its CriticalTemperature. Above the CriticalPressure, increasing the temperature will not cause a fluid to vaporize to give a two-phase system (McNaught &amp; Wilkinson, 1997).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalTemperature -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalTemperature -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CriticalTemperature">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CriticalTemperature">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -494,36 +494,36 @@ For ions, the charge on a particular atom may be denoted with a right-hand &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularWeight"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
         <rdfs:comment>That temperature, characteristic of each gas, above which it is not possible to liquefy a given gas (McNaught &amp; Wilkinson, 1997). 
 The CriticalTemperature of a material is the temperature above which distinct liquid and gas phases do not exist. As the CriticalTemperature is approached, the properties of the gas and liquid phases become the same. Above the CriticalTemperature, there is only one phase. [Wikipedia, 2006]</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Mixture -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Mixture -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Mixture">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Mixture">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#containsDirectly"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#containsDirectly"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity"/>
         <rdfs:comment>A Mixture is a Substance that contains two or more ChemicalComponents. The mixture class can represent two different things: 
 (a) a loose collection of segregate chemical components, or 
 (b) a compound material formed by several blended chemical components. 
@@ -532,49 +532,49 @@ The composition of a Mixture is not fixed.</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularEntity">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularEntity">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#hasMacroscopicAppearance"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalSpecies"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#InChI"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#InChI"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#SMILES"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#SMILES"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#WLN"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#WLN"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#empiricalFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#empiricalFormula"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#molecularFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#molecularFormula"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -583,26 +583,26 @@ The composition of a Mixture is not fixed.</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularWeight -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularWeight -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularWeight">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularWeight">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -615,30 +615,30 @@ The composition of a Mixture is not fixed.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#molecular_mass"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
         <rdfs:comment>Ratio of the mass of one molecule of a Substance, relative to the unified atomic mass unit (which is equal to 1/12 the mass of one atom of carbon-12). Also known as (relative) molar mass or (relative) molecular mass.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#PseudoComponent -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#PseudoComponent -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#PseudoComponent">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#PseudoComponent">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponent"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#chemicalFormula"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#isomericStructuralFormula"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -647,19 +647,19 @@ The composition of a Mixture is not fixed.</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#Substance">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#Substance">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substanceID"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substanceID"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#CAS_RegistryNumber"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -668,26 +668,26 @@ The composition of a Mixture is not fixed.</rdfs:comment>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointPressure">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointPressure">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -700,36 +700,36 @@ The composition of a Mixture is not fixed.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/derived_dimensions.owl#pressure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature"/>
         <rdfs:comment>The triple point of a Substance is given by the temperature and pressure at which three phases (gas, liquid, and solid) of that Substance coexist in thermodynamic equilibrium.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#TriplePointTemperature">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#TriplePointTemperature">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#ChemicalComponentConstant"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasValue"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasValue"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarValue"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarValue"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
+                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasUnitOfMeasure"/>
                                 <owl:allValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
+                                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#UnitOfMeasure"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                                                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+                                                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                                                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -742,8 +742,8 @@ The composition of a Mixture is not fixed.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>The triple point of a Substance is given by the temperature and pressure at which three phases (gas, liquid, and solid) of that Substance coexist in thermodynamic equilibrium.</rdfs:comment>

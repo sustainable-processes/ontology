@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:substance="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl"/>
+     xmlns:substance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -48,20 +48,20 @@
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>Component formula used in the property database of the process simulator Aspen Plus. For reference, see Aspen Physical Property System 12.1 manual.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:comment>Component name used in the property database of the process simulator Aspen Plus. For reference, see Aspen Physical Property System 12.1 manual.
 </rdfs:comment>
@@ -69,9 +69,9 @@
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substance_identifier -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substance_identifier -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#substance_identifier"/>
     
 
 
@@ -86,18 +86,18 @@
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularSpecies -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularSpecies -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/material/substance/substance.owl#MolecularSpecies">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/material/substance/substance.owl#MolecularSpecies">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#formula"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/applications/aspen_plus/aspen_plus.owl#name"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>

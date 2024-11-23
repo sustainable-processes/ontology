@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:pro_con_sys="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl"/>
+     xmlns:pro_con_sys="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -19,8 +19,8 @@
         <rdfs:comment>The ontology module &apos;control_instrument&apos; provides specializations of control instruments that are applicable to process control systems.
 The following classes and relations from other ontology modules are used within &apos;control_instrument&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrumentForEnergyStreams&quot;&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrumentForEnergyStreams&quot;&gt;
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -55,97 +55,97 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#BallCock -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#BallCock -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#BallCock">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#BallCock">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
         <rdfs:comment>A BallCock can be used to control a material stream.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControlValve -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControlValve -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControlValve">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControlValve">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
         <rdfs:comment>A ControlValve can be used to control a material stream.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
         <rdfs:comment>ControllingDeviceForEnergyStreams represents the controlling units for energy streams required in the process.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrument"/>
         <rdfs:comment>ControllingInstrumentForMaterialStream represents the controlling units for material streams required in the process.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#GTOThyristor -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#GTOThyristor -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#GTOThyristor">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#GTOThyristor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
         <rdfs:comment>A GTO-thyristor can be used for controlling energy streams.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Relay -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Relay -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Relay">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Relay">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
         <rdfs:comment>A Relay can be used for controlling energy streams.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ScrewConveyor -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ScrewConveyor -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ScrewConveyor">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ScrewConveyor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
         <rdfs:comment>A ScrewConveyor can be used to control a material stream.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ShutOffValve -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ShutOffValve -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ShutOffValve">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ShutOffValve">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForMaterialStream"/>
         <rdfs:comment>A ShutOffValve can be used to control a material stream.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Thyristor -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Thyristor -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Thyristor">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Thyristor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
         <rdfs:comment>A Thyristor can be used for controlling energy streams.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Transistor -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Transistor -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Transistor">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#Transistor">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system/process_control_equipment/control_instrument.owl#ControllingInstrumentForEnergyStream"/>
         <rdfs:comment>A Transistor can be used for controlling energy streams.</rdfs:comment>
     </owl:Class>
     
@@ -159,7 +159,7 @@ The following classes and relations from other ontology modules are used within 
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrumentForEnergyStreams">
+    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/process_control_system.owl#ControllingInstrumentForEnergyStreams">
         <rdfs:comment>ControllingDeviceForEnergyStreams is a subclass of ControllingDevice and 
     represents the controlling units for energy streams required in the process</rdfs:comment>
     </rdf:Description>

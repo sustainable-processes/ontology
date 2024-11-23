@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:plant="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
+     xmlns:plant="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
-     xmlns:Catalyst="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;"
-     xmlns:mereology="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/mereology/mereology.owl#"
-     xmlns:Maintenance="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;"
-     xmlns:physical_dimension="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
-     xmlns:economic_performance="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#"
-     xmlns:fundamental_concepts="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl"/>
+     xmlns:Catalyst="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;"
+     xmlns:mereology="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/mereology/mereology.owl#"
+     xmlns:Maintenance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;"
+     xmlns:physical_dimension="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
+     xmlns:economic_performance="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#"
+     xmlns:fundamental_concepts="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -25,22 +25,22 @@
         <rdfs:comment>The ontology module &apos;economic_performance&apos; evaluates certain chemical process systems with respect to economics perspectives.
 The following classes and relations from other ontology modules are used within &apos;economic_performance&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty&quot;/&gt;
 
-&lt;phys_dim:SupplementaryDimension rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money&quot;/&gt;
+&lt;phys_dim:SupplementaryDimension rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money&quot;/&gt;
 
 The following classes and relations from the Meta Model are refined within &apos;economic_performance&apos;:
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;</rdfs:comment>
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;</rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
     
@@ -74,57 +74,57 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
         <rdfs:comment>The relation addsUp indicates that a partial cost belongs to particular AccumulatedCosts.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem"/>
         <rdfs:comment>The relation isCostOfPlantItem indicates that a partial cost belongs to particular PlantItem.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/meta_model/mereology/mereology.owl#hasDirectPart"/>
     
 
 
@@ -139,37 +139,37 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
         <rdfs:comment>AccumulatedCosts summarize all partial costs that may occur in a ChemicalProcessSystem.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasDimension"/>
-                <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasDimension"/>
+                <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Cost describes all kinds of costs that may arise with respect to the ChemicalProcessSystem economic evaluation.</rdfs:comment>
@@ -177,63 +177,63 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>CostsForBuildings are involved in the erection of all buildings connected with the Plant.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>CostsForLand cover the land price and the yard improvement costs.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -241,88 +241,88 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
         <rdfs:comment>CostsForSystemsRealization are directly associated with the ProcessingSubsystem and the OperatingSubsystem.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EconomicPerformance">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasProperty"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasProperty"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>EconomicPerformance evaluates a ChemicalProcessSystem from an economic perspective</rdfs:comment>
@@ -330,60 +330,60 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
         <rdfs:comment>EquipmentCosts are related costs to the Equipment</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -391,152 +391,152 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>FixedCapitalInvestment is the capital needed to supply the manufacturing and plant facilities.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>GeneralExpenses are involved in any company’s operation.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
         <rdfs:comment>IndividualCosts represent costs that do not add up any other Costs.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstallationCostsForSystemsRealization">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>InstallationCostsForSystemsRealization involve for example the costs for labor, platforms, and construction.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
         <rdfs:comment>InstrumentationCosts are related to the ProcessControlSystem.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#DirectManufacturingCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndirectManufacturingCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>ManufacturingCosts are expenses which are directly connected with the manufacturing operation.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingFixedCapitalInvestment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForBuildings"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForLand"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#CostsForSystemsRealization"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -544,59 +544,59 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#NonManufacturingFixedCapitalInvestment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingLaborCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#OperatingSupervisionCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Costs"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#isCostOfPlantItem"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>PipeCosts are also part of the Plant.</rdfs:comment>
@@ -604,38 +604,38 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductEarnings -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductEarnings -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductEarnings">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductEarnings">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#GeneralExpense"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ManufacturingCosts"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -643,49 +643,49 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
         <rdfs:comment>ProductionCosts cover the costs for operating the ChemicalProcessSystemRealization and selling the CoreProducts.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PurchaseCostsForSystemsRealization">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#EquipmentCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#InstrumentationCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#PipeCosts"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -693,59 +693,59 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
         <rdfs:comment>PurchaseCostsForSystemsRealization are the costs for purchasing the realization elements of the ProcessingSubsystem and the OperatingSubsystem.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#RawMaterialCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ServiceFacilityCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
         <rdfs:comment>ServiceFacility costs are related to the costs connected with utilities for supplying stream, water, power, etc., waste disposal, fire protection and other service items.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCPSCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#ProductionCosts"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -753,40 +753,40 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment"/>
         <rdfs:comment>TotalCPSCosts of a ChemicalProcessSystem include all costs that are related to design, construction, and maintenance of the ChemicalProcessSystem, and the production and selling of EndProducts.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#TotalCapitalInvestment">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#AccumulatedCosts"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#FixedCapitalInvestment"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -794,7 +794,7 @@ The following classes and relations from the Meta Model are refined within &apos
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#addsUp"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -803,80 +803,80 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#UtilityCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#VirtualIntermediateEarnings -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#VirtualIntermediateEarnings -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#VirtualIntermediateEarnings">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#VirtualIntermediateEarnings">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Earnings"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#WorkingCapital">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
         <rdfs:comment>WorkingCapital is the capital needed for the operations of a plant.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Catalyst&amp;SolventsCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#Maintenance&amp;RepairCosts">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_performance/economic_performance.owl#IndividualCosts"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Equipment"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Instrumentation"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#Piping"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/chemical_process_system/CPS_realization/plant.owl#PlantItem"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#ScalarQuantity"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#System"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#System"/>
     
 
 
@@ -897,9 +897,9 @@ The following classes and relations from the Meta Model are refined within &apos
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
 </rdf:RDF>
 
 

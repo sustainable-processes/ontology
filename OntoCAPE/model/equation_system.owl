@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:equation_system="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl"
-     xmlns:mathematical_model="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:equation_system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl"
+     xmlns:mathematical_model="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -21,10 +21,10 @@
         <rdfs:comment>The ontolog module &apos;equation_system&apos; provides concepts for the description of the model equations that constitute a mathematical model. 
 The following classes and relations from other ontology modules are used within &apos;equation_system&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic&quot;/&gt;
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -42,82 +42,82 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type DAE_explicitness.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type Linearity</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type ModelRepresentationForm</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasNumericalStiffness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasNumericalStiffness -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasNumericalStiffness">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasNumericalStiffness">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type NumericalStiffness</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasODE_explicitness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasODE_explicitness -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasODE_explicitness">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasODE_explicitness">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type ODE_Explicitness.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasVariablesType -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasVariablesType -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasVariablesType">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasVariablesType">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>Indicates an EquationSystemCharacteristic of type VariablesType</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#hasCharacteristic"/>
     
 
 
@@ -132,20 +132,20 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialIndex -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialIndex -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialIndex">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialIndex">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment>The attribute represents the differential index of a DAE system, as defined by Gear &amp; Petzold (1984).</rdfs:comment>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialOrder -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialOrder -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialOrder">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialOrder">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:comment>The attribute differentialOrder denotes the order of a differential equation, which is defined as the order of the highest derivative of a ModelVariable appearing in the differential equation</rdfs:comment>
     </owl:DatatypeProperty>
@@ -163,140 +163,140 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
         <rdfs:comment>An AlgebraicEquationSystem is a MathematicalModel which solely consists of algebraic equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#fully_implicit"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#semi-explicit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#fully_implicit"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#semi-explicit"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>Characterizes the explicitness of a DAE system</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasDAE_Explicitness"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialIndex"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialIndex"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
         <rdfs:comment>A DifferentialAlgebraicEquationSystem (DAE system) is a MathematicalModel that comprises both algebraic and differential equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#differentialOrder"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#differentialOrder"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -305,71 +305,71 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
         <rdfs:comment>The EquationSystemCharacteristics characterize the model equations of a MathematicalModel.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#LinearAlgebraicSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#linear"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#linear"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem"/>
         <rdfs:comment>A LinearAlgebraicSystem is an AlgebraicSystem which contains only linear equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#linear"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonlinear"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#linear"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonlinear"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>Characterizes the linearity of a (Differential)AlgebrailEquationSystem.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#closed_form"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#open_form"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#closed_form"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#open_form"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>A MathematicalModel may appear in two forms, as indicated by the ModelRepresentationForm: 
 - An open-form model is solved by an external algorithm. One can freely choose the inputs and outputs of the open-form model.
 - A closed-form model includes an underlying numerical algorithm that solves the model equations. The algorithm accepts only a fixed set of input variables, and consequently returns only a fixed set of output variables.</rdfs:comment>
@@ -377,16 +377,16 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NonlinearAlgebraicSystem">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#AlgebraicEquationSystem"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasLinearity"/>
-                        <owl:hasValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonlinear"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasLinearity"/>
+                        <owl:hasValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonlinear"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -396,130 +396,130 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonstiff"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#stiff"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonstiff"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#stiff"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>In mathematics, a stiff equation is a differential equation for which certain numerical methods for solving the equation are numerically unstable, unless the step size is taken to be extremely small. It has proved difficult to formulate a precise definition of stiffness, but the main idea is that the equation includes some terms that can lead to rapid variation in the solution (Wikipedia, 2007).</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#explicit_formulation"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#implicit_formulation"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#explicit_formulation"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#implicit_formulation"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>Characterizes the explicitness of an OrdinaryDifferentialEquationSystem, which can be given in implicit_formulation or explicit_formulation.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialAlgebraicSystem">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem"/>
         <rdfs:comment>An OrdinaryDifferentialAlgebraicSystem is a DifferentialAlgebraicSystem system which comprises ordinary differential equations as well as algebraic equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#OrdinaryDifferentialEquationSystem">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasNumericalStiffness"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasODE_explicitness"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem"/>
         <rdfs:comment>An OrdinaryDifferentialEquationSystem (ODE system) is a DifferentialEquationSystem which solely consists of ordinary differential equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialAlgebraicSystem">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialAlgebraicEquationSystem"/>
         <rdfs:comment>A PartialDifferentialAlgebraicSystem comprises both partial differential equations and algebraic equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#PartialDifferentialEquationSystem">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DifferentialEquationSystem"/>
         <rdfs:comment>A PartialDifferentialEquationSystem (PDE system) is a DifferentialEquationSystem which consists of partial differential equations.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#continuous_model"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#discrete_model"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#mixed_model"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#continuous_model"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#discrete_model"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#mixed_model"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#EquationSystemCharacteristics"/>
         <rdfs:comment>A VariablesType indicates whether the ModelVariables of a MathematicalModel are all continuous, all discrete, or partly continuous and partly discrete:
 -   A continuous_model denotes a MathematicalModel in which all the ModelVariables are continuous.
 -   A discrete_model denotes a MathematicalModel in which all the ModelVariables are discrete. An example of a mixed_model is an integer model.
@@ -528,42 +528,42 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/mathematical_model.owl#MathematicalModel">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/mathematical_model.owl#MathematicalModel">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasModelRepresentationForm"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#hasVariablesType"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -571,9 +571,9 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#FixedValueSet"/>
     
 
 
@@ -588,118 +588,118 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#closed_form -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#closed_form -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#closed_form">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#open_form"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#closed_form">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#open_form"/>
         <rdfs:comment>A closed-form model includes an underlying numerical algorithm that solves the model equations. The algorithm accepts only a fixed set of input variables, and consequently returns only a fixed set of output variables.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#continuous_model -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#continuous_model -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#continuous_model">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#discrete_model"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#mixed_model"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#continuous_model">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#discrete_model"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#mixed_model"/>
         <rdfs:comment>A continuous_model denotes a MathematicalModel in which all the ModelVariables are continuous.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#discrete_model -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#discrete_model -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#discrete_model">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#mixed_model"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#discrete_model">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#mixed_model"/>
         <rdfs:comment>A discrete_model denotes a MathematicalModel in which all the ModelVariables are discrete. An example of a discrete_model is an integer model.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#explicit_formulation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#explicit_formulation -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#explicit_formulation">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#implicit_formulation"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#explicit_formulation">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#implicit_formulation"/>
         <rdfs:comment>In an explicit_formulation, the OrdinaryDifferentialAlgebraicSystem is explicitly solved for the highest-order derivative y^(n), i.e., F(x, y, y&apos;, y&apos;&apos;, ...  y^(n-1) ) = y^(n)</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#fully_implicit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#fully_implicit -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#fully_implicit">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#semi-explicit"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#fully_implicit">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#semi-explicit"/>
         <rdfs:comment>A DifferentialAlgebraicEquationSystem is fully_implicit if it has the form
   F(x, x&apos;, u, t) = 0</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#implicit_formulation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#implicit_formulation -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#implicit_formulation">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#implicit_formulation">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ODE_Explicitness"/>
         <rdfs:comment>In an implicit_formulation, the ordinary differential algebraic system is not solved for the highest-order derivative, i.e., F(x, y, y&apos;, y&apos;&apos;, y&apos;&apos;&apos; ...) = 0</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#linear -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#linear -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#linear">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonlinear"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#linear">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonlinear"/>
         <rdfs:comment>Characterizes a linear equation system</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#mixed_model -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#mixed_model -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#mixed_model">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#VariablesType"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#mixed_model">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#VariablesType"/>
         <rdfs:comment>A  mixed_model denotes a MathematicalModel in which some of the ModelVariables are discrete while the others are continuous. An example of a mixed_model is a mixed integer model.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonlinear -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonlinear -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonlinear">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#Linearity"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonlinear">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#Linearity"/>
         <rdfs:comment>Characterizes a nonlinear equation system</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonstiff -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonstiff -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#nonstiff">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#stiff"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#nonstiff">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#stiff"/>
         <rdfs:comment>Characterizes a nonstiff differential equation.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#open_form -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#open_form -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#open_form">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#open_form">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#ModelRepresentationForm"/>
         <rdfs:comment>An open-form model is solved by an external algorithm. One can freely choose the inputs and outputs of the open-form model.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#semi-explicit -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#semi-explicit -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#semi-explicit">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#semi-explicit">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#DAE_Explicitness"/>
         <rdfs:comment>A DifferentialAlgebraicEquationSystem is semi-explict if it has the form
   f(x, u, t) = x&apos;
   g(x, u, t) = 0</rdfs:comment>
@@ -707,10 +707,10 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#stiff -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#stiff -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#stiff">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#stiff">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/model/equation_system.owl#NumericalStiffness"/>
         <rdfs:comment>Characterizes a stiff differential equation.</rdfs:comment>
     </owl:NamedIndividual>
 </rdf:RDF>

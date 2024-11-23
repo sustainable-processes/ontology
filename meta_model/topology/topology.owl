@@ -1,18 +1,18 @@
-<?xml version="1.0"?><rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl"
-     xmlns:fc="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#"
+<?xml version="1.0"?><rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl"
+     xmlns:fc="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/meta_model/"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:topology="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl"
-     xmlns:mereology="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl"/>
+     xmlns:topology="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl"
+     xmlns:mereology="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -21,18 +21,18 @@
         <rdfs:comment>The ontology module &apos;topology&apos; extends the mereological therory defined in the ontology module &apos;mereology&apos; to a theory of mereotopology. It provides concepts for describing topological relations between objects.   
 The following classes and relations from other ontology modules are used within &apos;topology&apos;:
    
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#AggregateOnly&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#FirstLevelPart&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOnly&quot;&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#SecondLevelPart&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#AggregateOnly&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#FirstLevelPart&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#Part&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#PartOnly&quot;&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#SecondLevelPart&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasPart&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf&quot;/&gt;
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isPartOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasDirectPart&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasPart&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf&quot;/&gt;
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isPartOf&quot;/&gt;
 </rdfs:comment>
     </owl:Ontology>
     
@@ -66,76 +66,76 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasDirectPart -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasDirectPart"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasPart -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasPart -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasPart"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasPart"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isPartOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isPartOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isPartOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isPartOf"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#enters -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#enters -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#enters">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isPredecessorOf"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasInput"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#enters">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isPredecessorOf"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasInput"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
         <rdfs:comment>The relation &apos;enters&apos; connects an ingoing DirectedArc to its target Node.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasInput -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasInput -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasInput">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isSuccessorOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasInput">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isSuccessorOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
         <rdfs:comment>The relation &apos;hasInput&apos; connects a Node to an incoming DirectedArc.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasOutput -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasOutput -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasOutput">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isPredecessorOf"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#leaves"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasOutput">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isPredecessorOf"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#leaves"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
         <rdfs:comment>The relation &apos;hasOutput&apos; connects a Node to an outgoing DirectedArc.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:comment>The topological relation &apos;isConnectedTo&apos; represents connectedness between Objects.</rdfs:comment>
@@ -143,35 +143,35 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdfs:comment>The topological relation isDirectlyConnectedTo represents the direct connectedness of two objects.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isPredecessorOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isPredecessorOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isPredecessorOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isSuccessorOf"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isPredecessorOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isSuccessorOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -180,24 +180,24 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isSuccessorOf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isSuccessorOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isSuccessorOf">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isConnectedTo"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isSuccessorOf">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isConnectedTo"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -206,31 +206,31 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#leaves -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#leaves -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#leaves">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isSuccessorOf"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#leaves">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isSuccessorOf"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
         <rdfs:comment>The relation &apos;leaves&apos; connects an outgoing DirectedArc to its source Node.</rdfs:comment>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#sameAs -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#sameAs -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#sameAs">
-        <rdfs:subPropertyOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
-        <owl:inverseOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#sameAs"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#sameAs">
+        <rdfs:subPropertyOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#inter-objectRelation"/>
+        <owl:inverseOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#sameAs"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
         <rdfs:range>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                        <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                        <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                        <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -251,83 +251,83 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#AggregateOnly -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#AggregateOnly -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#AggregateOnly">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#AggregateOnly">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#AggregateOnly"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#AggregateOnly"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#FirstLevelPart -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#FirstLevelPart -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#FirstLevelPart">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#FirstLevelPart">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#FirstLevelPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#FirstLevelPart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#Part -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#Part"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOnly -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#PartOnly -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOnly">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#PartOnly">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#PartOnly"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#PartOnly"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#SecondLevelPart -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#SecondLevelPart -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#SecondLevelPart">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#SecondLevelPart">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#SecondLevelPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#SecondLevelPart"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasDirectPart"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -335,14 +335,14 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasPart"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -350,12 +350,12 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -363,63 +363,63 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
         <rdfs:comment>Arc is a specialization of Object and represents the connecting element between Nodes.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Connector"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Connector"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isPartOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port"/>
         <rdfs:comment>ConnectionPoint represents the interface through which an Arc can be connected to the Port of a Node. ConnectionPoints may have certain attributes that further specify the type of connection. ConnectionPoints are Parts of the corresponding Arc.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Connector -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Connector -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Connector">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#Part"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Connector">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#Part"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Connector"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Connector"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -428,37 +428,37 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#enters"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#enters"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#leaves"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#leaves"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
                 <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#enters"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#enters"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#leaves"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#leaves"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -467,19 +467,19 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/fundamental_concepts/fundamental_concepts.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasDirectPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasDirectPart"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -487,14 +487,14 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#hasPart"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#hasPart"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -502,12 +502,12 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf"/>
                 <owl:allValuesFrom>
                     <owl:Class>
                         <owl:unionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
-                            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
+                            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:allValuesFrom>
@@ -515,20 +515,20 @@ The following classes and relations from other ontology modules are used within 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasInput"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasInput"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#hasOutput"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#DirectedArc"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#hasOutput"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#DirectedArc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Arc"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Arc"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Node is a specialization of object and is used to model the crucial elements (joints) which are connected by arcs.</rdfs:comment>
@@ -536,26 +536,26 @@ The following classes and relations from other ontology modules are used within 
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Port">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Connector"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Port">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Connector"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isPartOf"/>
-                <owl:someValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/mereology/mereology.owl#isDirectPartOf"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/mereology/mereology.owl#isDirectPartOf"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/meta_model/topology/topology.owl#ConnectionPoint"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#isDirectlyConnectedTo"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/topology/topology.owl#ConnectionPoint"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Ports represents the interface of nodes to connection points and are parts of the corresponding node</rdfs:comment>

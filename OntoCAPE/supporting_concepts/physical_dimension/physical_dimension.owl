@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
-     xml:base="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"
+<rdf:RDF xmlns="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#"
+     xml:base="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:root="https://github.com/sustainable-processes/ontology/OntoCAPE/"
-     xmlns:maths="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
+     xmlns:root="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/"
+     xmlns:maths="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:system="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#"
-     xmlns:phys_dim="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"
-     xmlns:binary_tree="https://github.com/sustainable-processes/ontology/meta_model/data_structures/binary_tree.owl#">
-    <owl:Ontology rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl">
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl"/>
-        <owl:imports rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl"/>
+     xmlns:system="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#"
+     xmlns:phys_dim="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl"
+     xmlns:binary_tree="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/meta_model/data_structures/binary_tree.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl">
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl"/>
         <terms:license>Copyright (C) [2009] [Andreas Wiesner]
                 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
                 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -23,12 +23,12 @@
         <rdfs:comment>The ontology module &apos;physical_dimension&apos; defines a set of fundamental dimensions and introduces a method to derive further physical dimensions from these base dimensions.
 The following classes and relations of other ontology modules are used within &apos;physical_dimension&apos;:
 
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand&quot;/&gt;
-&lt;owl:Class rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand&quot;/&gt;
+&lt;owl:Class rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension&quot;/&gt;
 
-&lt;owl:ObjectProperty rdf:about=&quot;https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue&quot;/&gt;  
+&lt;owl:ObjectProperty rdf:about=&quot;https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue&quot;/&gt;  
     </rdfs:comment>
         <owl:versionInfo>2.0</owl:versionInfo>
     </owl:Ontology>
@@ -46,9 +46,9 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue -->
 
-    <owl:AnnotationProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue"/>
+    <owl:AnnotationProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#hasNodeValue"/>
     
 
 
@@ -69,11 +69,11 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy">
-        <rdfs:domain rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
-        <rdfs:range rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
     </owl:ObjectProperty>
     
 
@@ -89,90 +89,90 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
                 </owl:oneOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
         <rdfs:comment>Most PhysicalDimensions can be mathematically derived from a small set of dimensions that we call BaseDimensions. Such a set of base dimensions is chosen by convention. In OntoCAPE, we adopt the base dimensions of the SI system of units (BIPM, 2006), which are length, time, thermodynamic temperature, mass, amount of substance, electric current, and luminous intensity.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy"/>
-                <owl:allValuesFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy"/>
+                <owl:allValuesFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Node"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy"/>
+                <owl:onProperty rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#isDefinedBy"/>
                 <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
+        <owl:disjointWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
         <rdfs:comment>A DerivedDimension is a PhysicalDimension that can be defined as a product of powers of the BaseDimensions. For example, the DerivedDimension ‘velocity’ can be defined as the ratio of the BaseDimensions ‘length’ and ‘time’.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension">
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
-        <rdfs:subClassOf rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Operand"/>
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension"/>
         <rdfs:comment>This class subsumes fundamental dimensions that do not form part of the SI system of units and therefore not classified under the BaseDimension class.</rdfs:comment>
     </owl:Class>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension -->
 
-    <owl:Class rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/upper_level/system.owl#PhysicalDimension">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/upper_level/system.owl#PhysicalDimension">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
-                    <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#DerivedDimension"/>
+                    <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -191,163 +191,163 @@ The following classes and relations of other ontology modules are used within &a
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the FundamentalDimension of &apos; amount_of_money&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; amount_of_substance&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; electric_current&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; length&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; luminous_intensity&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; mass&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; thermodynamic_temperature&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
-        <maths:hasNodeValue rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/mathematical_relation/mathematical_relation.owl#Leaf"/>
+        <maths:hasNodeValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
         <rdfs:comment>Auxiliary individual for the definition of DerivedDimensions that are derivable from the BaseDimension of &apos; time&apos;.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
-        <owl:differentFrom rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_money">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
+        <owl:differentFrom rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension"/>
         <rdfs:comment>An amount of money in an arbitrary currency.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The number of elementary entities contained in a body (or a system of bodies). [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The time derivative from an electric charge sustained by a charge carrier through an observed surface. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#identity_dimension">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#SupplementaryDimension"/>
         <rdfs:comment>According to Gruber &amp; Olsen (1994) the identity_dimension is defined as the identity element for multiplication over PhysicalDimensions. That means that the product of the identity_dimension and any other PhysicalDimension is that other PhysicalDimension.</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The physical dimension which characterizes the space and distance traveled by bodies or their parts along a given line. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The radiant flux emitted by a source of radiation in a given direction inside a small solid angle in relation to this solid angle. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The physical dimension which characterizes the inert and gravitational properties of material objects. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The temperature calculated according to a thermodynamic temperature scale from absolute zero. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time">
-        <rdf:type rdf:resource="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#BaseDimension"/>
         <rdfs:comment>The physical dimension characterizing the successive change in phenomena and the states of matter which determines the duration of phenomenal being. [Chertov, 1997]</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -364,26 +364,26 @@ The following classes and relations of other ontology modules are used within &a
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_MONEY"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#AMOUNT_OF_SUBSTANCE"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#ELECTRIC_CURRENT"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LENGTH"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#LUMINOUS_INTENSITY"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#MASS"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#THERMODYNAMIC_TEMPERATURE"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#TIME"/>
         </owl:distinctMembers>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
         <owl:distinctMembers rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
-            <rdf:Description rdf:about="https://github.com/sustainable-processes/ontology/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#amount_of_substance"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#electric_current"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#length"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#luminous_intensity"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#mass"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#thermodynamic_temperature"/>
+            <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoCAPE/supporting_concepts/physical_dimension/physical_dimension.owl#time"/>
         </owl:distinctMembers>
     </rdf:Description>
 </rdf:RDF>
