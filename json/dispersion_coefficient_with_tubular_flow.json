@@ -1,0 +1,80 @@
+{
+  "Phenomenon": [
+    {
+      "name": "Continuous",
+      "class": "Accumulation",
+      "flow_patterns": ["Tubular_Flow"],
+      "molecular_transport_phenomena": []
+    },
+    {
+      "name": "Tubular_Flow",
+      "class": "FlowPattern",
+      "flow_patterns": [],
+      "molecular_transport_phenomena": ["Axial_Dispersion"]
+    },
+    {
+      "name": "Axial_Dispersion",
+      "class": "MolecularTransportPhenomenon",
+      "flow_patterns": [],
+      "molecular_transport_phenomena": []
+    }
+  ],
+  "Unit": [
+    {
+      "name": "m",
+      "class": "SI_BaseUnit",
+      "symbol": "<math><mtext>m</mtext></math>"
+    },
+    {
+      "name": "m_per_s",
+      "class": "SI_DerivedUnit",
+      "symbol": "<math><mtext>m</mtext><mtext>/</mtext><mtext>s</mtext></math>"
+    },
+    {
+      "name": "m.m_per_s",
+      "class": "SI_DerivedUnit",
+      "symbol": "<math><msup><mtext>m</mtext><mtext>2</mtext></msup><mtext>/</mtext><mtext>s</mtext></math>"
+    }
+  ],
+  "Variable": [
+    {
+      "name": "Reactor_Radius",
+      "class": "ReactorParameter",
+      "symbol": "<math><mi>r</mi></math>",
+      "unit": "m",
+      "law": null,
+      "dimensions": []
+    },
+    {
+      "name": "Flow_Velocity",
+      "class": "FlowParameter",
+      "symbol": "<math><mi>u</mi></math>",
+      "unit": "m_per_s",
+      "law": null,
+      "dimensions": ["Stream"]
+    },
+    {
+      "name": "Diffusion_Coefficient",
+      "class": "PhysicalParameter",
+      "symbol": "<math><mi>D</mi></math>",
+      "unit": "m.m_per_s",
+      "law": null,
+      "dimensions": ["Solvent", "Species"]
+    },
+    {
+      "name": "Axial_Dispersion_Coefficient",
+      "class": "MolecularTransportParameter",
+      "symbol": "<math><msub><mi>D</mi><mtext>ax</mtext></msub></math>",
+      "unit": "m.m_per_s",
+      "law": "Dispersion_Coefficient_with_Tubular_Flow_by_Gill_et_al.",
+      "dimensions": ["Solvent", "Species"]
+    }
+  ],
+  "Law": {
+    "name": "Dispersion_Coefficient_with_Tubular_Flow_by_Gill_et_al.",
+    "phenomenon": "Tubular_Flow",
+    "DOI": "10.1098/rspa.1970.0083",
+    "formula": "<math><mrow><mfrac><mrow><msup><mi>r</mi><mn>2</mn></msup><msup><mi>u</mi><mn>2</mn></msup></mrow><mrow><mn>192</mn><mi>D</mi></mrow></mfrac><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mrow><mo>exp</mo><mo>(</mo><mo>−</mo><mfrac><mrow><mn>4</mn><mi>D</mi><mi>l</mi></mrow><mrow><mi>u</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac><mo>)</mo></mrow><mo>)</mo></mrow></mrow></math>",
+    "variables": ["Reactor_Radius", "Flow_Velocity", "Diffusion_Coefficient"]
+  }
+}
