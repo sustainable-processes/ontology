@@ -1,5 +1,6 @@
 # Ontology Repository
 
+<<<<<<< HEAD
 A collection of useful ontologies.
 
 Model ontology is developed based on OntoCAPE.
@@ -73,3 +74,6 @@ flowchart LR
     OntoModel:Law -. OntoModel:hasDOI .-> rdf:string;
 ```
 
+=======
+A collection of useful ontologies.
+>>>>>>> c326151 ([REVISE] ontology structure)
