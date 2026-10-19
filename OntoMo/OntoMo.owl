@@ -5,8 +5,26 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -1951,6 +1969,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#J">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>J</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#joule"/>
     </owl:NamedIndividual>
     
 
@@ -1960,6 +1979,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#J_per_K">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>J</mtext><mtext>/</mtext><mtext>K</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#joulePerKelvin"/>
     </owl:NamedIndividual>
     
 
@@ -1969,6 +1989,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#J_per_kg.K">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>J</mtext><mtext>/</mtext><mtext>(</mtext><mtext>kg</mtext><mtext>·</mtext><mtext>K</mtext><mtext>)</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#joulePerKelvinKilogram"/>
     </owl:NamedIndividual>
     
 
@@ -1978,6 +1999,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#J_per_mol">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>J</mtext><mtext>/</mtext><mtext>mol</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#joulePerMole"/>
     </owl:NamedIndividual>
     
 
@@ -1987,6 +2009,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#K">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>K</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#kelvin"/>
     </owl:NamedIndividual>
     
 
@@ -2007,6 +2030,7 @@
         <hasMetric rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#cubic_m"/>
         <hasRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.001</hasRatio>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>L</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#litre"/>
     </owl:NamedIndividual>
     
 
@@ -2366,6 +2390,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pa">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>Pa</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#pascal"/>
     </owl:NamedIndividual>
     
 
@@ -2375,6 +2400,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pa.s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>Pa</mtext><mtext>·</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#pascalSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3395,6 +3421,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#W">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>W</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#watt"/>
     </owl:NamedIndividual>
     
 
@@ -3404,6 +3431,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#W_per_m.m.K">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>W</mtext><mtext>/</mtext><mtext>(</mtext><msup><mtext>m</mtext><mn>2</mn></msup><mtext>·</mtext><mtext>K</mtext><mtext>)</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#wattPerSquareMetreKelvin"/>
     </owl:NamedIndividual>
     
 
@@ -3455,6 +3483,7 @@
         <hasMetric rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pa"/>
         <hasRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100000.0</hasRatio>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>bar</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#bar"/>
     </owl:NamedIndividual>
     
 
@@ -3464,6 +3493,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#cubic_m">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext>m</mtext><mn>3</mn></msup></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#cubicMetre"/>
     </owl:NamedIndividual>
     
 
@@ -3473,6 +3503,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#cubic_m_per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext>m</mtext><mn>3</mn></msup><mtext>/</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#cubicMetrePerSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3502,6 +3533,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#kg">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>kg</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#kilogram"/>
     </owl:NamedIndividual>
     
 
@@ -3511,6 +3543,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#kg_per_cubic_m">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>kg</mtext><mtext>/</mtext><msup><mtext>m</mtext><mn>3</mn></msup></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#kilogramPerCubicmetre"/>
     </owl:NamedIndividual>
     
 
@@ -3531,6 +3564,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#kg_per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>kg</mtext><mtext>/</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#kilogramPerSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3540,6 +3574,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>m</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#metre"/>
     </owl:NamedIndividual>
     
 
@@ -3549,6 +3584,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m.m">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext>m</mtext><mn>2</mn></msup></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#squareMetre"/>
     </owl:NamedIndividual>
     
 
@@ -3558,6 +3594,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m.m_per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext>m</mtext><mn>2</mn></msup><mtext>/</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#squareMetrePerSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3578,6 +3615,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m_per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>m</mtext><mtext>/</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#metrePerSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3589,6 +3627,7 @@
         <hasMetric rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#s"/>
         <hasRatio rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</hasRatio>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>min</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#minute-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3598,6 +3637,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#mol">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>mol</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#mole"/>
     </owl:NamedIndividual>
     
 
@@ -3607,6 +3647,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#mol_per_L">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>mol</mtext><mtext>/</mtext><mtext>L</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#molePerLitre"/>
     </owl:NamedIndividual>
     
 
@@ -3645,6 +3686,7 @@
         <hasMetric rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#K"/>
         <hasIntercept rdf:datatype="http://www.w3.org/2001/XMLSchema#float">273.15</hasIntercept>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext></mtext><mtext>o</mtext></msup><mtext>C</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#degreeCelsius"/>
     </owl:NamedIndividual>
     
 
@@ -3654,6 +3696,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msup><mtext>s</mtext><mn>−1</mn></msup></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#reciprocalSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3663,6 +3706,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#rad_per_s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>rad</mtext><mtext>/</mtext><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#radianPerSecond-Time"/>
     </owl:NamedIndividual>
     
 
@@ -3683,6 +3727,7 @@
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#s">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mtext>s</mtext></mrow></math></hasSymbol>
+        <skos:exactMatch rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/om-2/om-2.owl#second-Time"/>
     </owl:NamedIndividual>
     
 
