@@ -236,26 +236,10 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyAccumulation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEquilibriumPhenomenon -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyAccumulation">
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulation"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyEquilibriumPhenomenon -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyEquilibriumPhenomenon">
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumPhenomenon"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyTransportPhenomenon -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEnergyTransportPhenomenon">
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportPhenomenon"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToEquilibriumPhenomenon">
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon"/>
     </owl:ObjectProperty>
     
 
@@ -268,18 +252,10 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToMassEquilibriumPhenomenon -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToTransportPhenomenon -->
 
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToMassEquilibriumPhenomenon">
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToMassTransportPhenomenon -->
-
-    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToMassTransportPhenomenon">
-        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#relatesToTransportPhenomenon">
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:ObjectProperty>
     
 
@@ -448,10 +424,10 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulation -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulationLaw -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulation">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulationLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
     </owl:Class>
     
 
@@ -464,10 +440,18 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumPhenomenon -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumLaw -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumPhenomenon">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
     </owl:Class>
     
 
@@ -480,9 +464,9 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportPhenomenon -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportPhenomenon">
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
     </owl:Class>
     
@@ -504,6 +488,14 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+    </owl:Class>
+    
+
+
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#InformationDescriptor -->
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#InformationDescriptor">
@@ -518,10 +510,26 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw -->
 
-    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumLaw -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
     </owl:Class>
     
 
@@ -530,14 +538,6 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportParameter">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Parameter"/>
-    </owl:Class>
-    
-
-
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon -->
-
-    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon">
-        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
     </owl:Class>
     
 
@@ -604,6 +604,14 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#RateVariable">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
     </owl:Class>
     
 
@@ -696,6 +704,14 @@
 
     <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TimeDescriptor">
         <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Descriptor"/>
+    </owl:Class>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon">
+        <rdfs:subClassOf rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Phenomenon"/>
     </owl:Class>
     
 
@@ -793,7 +809,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Annular_Microflow">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Engulfment"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Engulfment"/>
     </owl:NamedIndividual>
     
 
@@ -915,7 +931,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -934,18 +950,8 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Accumulation"/>
-        <relatesToEnergyAccumulation rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch_Energy"/>
         <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Well_Mixed"/>
         <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Well_Mixed_with_Side_Tank_Recycle"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch_Energy -->
-
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch_Energy">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulation"/>
-        <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Well_Mixed"/>
     </owl:NamedIndividual>
     
 
@@ -1045,7 +1051,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Derivative_Law_with_Continuous -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Derivative_Law_with_Continuous">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw"/>
         <hasIndependentModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Position"/>
         <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Initial_Concentration"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
@@ -1080,7 +1086,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Law_with_Batch -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Law_with_Batch">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Molecular_Weight"/>
@@ -1093,7 +1099,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Law_with_CSTR -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Law_with_CSTR">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Initial_Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Volume"/>
@@ -1207,7 +1213,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Delivered_Power_Law_with_Power_Transfer_by_Power_Number -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Delivered_Power_Law_with_Power_Transfer_by_Power_Number">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
         <hasAssociatedPowerLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Power_Derivative_Law_with_Power_Transfer"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Agitation"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
@@ -1223,7 +1229,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Delivered_Power_Law_with_Power_Transfer_by_Supplied_Power -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Delivered_Power_Law_with_Power_Transfer_by_Supplied_Power">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
         <hasAssociatedPowerLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Power_Derivative_Law_with_Power_Transfer"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer_Efficiency"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Supplied_Power"/>
@@ -1340,7 +1346,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Power_Derivative_Law_with_Power_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Power_Derivative_Law_with_Power_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Power"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Delivered_Power"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer_Efficiency"/>
@@ -1376,7 +1382,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Utility_Derivative_Law_with_Utility-Liquid_Heat_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Utility_Derivative_Law_with_Utility-Liquid_Heat_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Utility"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer_Rate"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer"/>
@@ -1400,7 +1406,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Engulfment -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Engulfment">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -1466,7 +1472,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Film_Thickness_Law_with_Annular_Microflow_by_Youngbae_et_al. -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Film_Thickness_Law_with_Annular_Microflow_by_Youngbae_et_al.">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density_Gas"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
@@ -1485,7 +1491,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -1543,7 +1549,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Annular_Microflow -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Annular_Microflow">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
         <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Law_with_Engulfment"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Film_Thickness"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
@@ -1557,8 +1563,8 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
-        <relatesToMassEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Equilibrium"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
+        <relatesToEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Equilibrium"/>
     </owl:NamedIndividual>
     
 
@@ -1615,7 +1621,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Gas-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Gas-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasAssociatedGasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Used_Gas_Derivative_Law_with_Gas-Liquid_Mass_Transfer"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Coefficient"/>
@@ -1662,7 +1668,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Equilibrium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Equilibrium">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -1684,7 +1690,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Saturated_Concentration_Law_with_Gas_Dissolution_Equilibrium_by_Henry -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dissolution_Saturated_Concentration_Law_with_Gas_Dissolution_Equilibrium_by_Henry">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Constant"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mole_Gas_Fraction"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pressure"/>
@@ -2091,7 +2097,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Derivative_Law_with_Batch -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Derivative_Law_with_Batch">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassAccumulationLaw"/>
         <hasIndependentModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Time"/>
         <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Initial_Mass"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass"/>
@@ -2165,7 +2171,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Solid_Derivative_Law_with_Solid-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Solid_Derivative_Law_with_Solid-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Initial_Mass_Solid"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Solid"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
@@ -2207,7 +2213,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Used_Gas_Derivative_Law_with_Gas-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Used_Gas_Derivative_Law_with_Gas-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Used_Gas"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Rate"/>
@@ -2258,7 +2264,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Associated_Law_with_Flow_Exchange_with_Side_Tank -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Associated_Law_with_Flow_Exchange_with_Side_Tank">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Initial_Mass"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Flow_Rate"/>
@@ -2273,7 +2279,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Law_with_Engulfment -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Law_with_Engulfment">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Time"/>
@@ -2286,7 +2292,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Law_with_Flow_Exchange_with_Side_Tank -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Law_with_Flow_Exchange_with_Side_Tank">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasAssociatedSideTankLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Rate_Associated_Law_with_Flow_Exchange_with_Side_Tank"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Flow_Rate"/>
@@ -2311,7 +2317,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Time_Law_with_Annular_Microflow_by_Youngbae_et_al. -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mixing_Time_Law_with_Annular_Microflow_by_Youngbae_et_al.">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Atmospheric_Pressure"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density_Gas"/>
@@ -2427,7 +2433,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Solid_Dissolution_Equilibrium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Solid_Dissolution_Equilibrium">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -2482,7 +2488,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -2646,7 +2652,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Arrhenius -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Arrhenius">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Activation_Energy"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Constant"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pre-exponential_Factor"/>
@@ -2660,7 +2666,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Arrhenius_Referenced_to_293K -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Arrhenius_Referenced_to_293K">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Activation_Energy"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Constant"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Pre-exponential_Factor"/>
@@ -2674,7 +2680,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Concentration_Power_Dependence -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Concentration_Power_Dependence">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Partial_Order"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration_Power_Dependence"/>
@@ -2686,7 +2692,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Instantaneous -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Instantaneous">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Stoichiometric_Coefficient"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Instantaneous"/>
@@ -2698,7 +2704,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Ionicity-Related_Rate_Constant -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Ionicity-Related_Rate_Constant">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Ionicity"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Ionicity-Related_Rate_Constant"/>
         <hasFormula rdf:parseType="Literal"><math><mrow><mtext>specifically defined</mtext></mrow></math></hasFormula>
@@ -2709,7 +2715,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Plain_Rate_Constant -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate_Law_with_Plain_Rate_Constant">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#ReactionLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Rate_Constant"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Rate_Constant"/>
         <hasFormula rdf:parseType="Literal"><math><mrow><mi>k</mi></mrow></math></hasFormula>
@@ -2721,6 +2727,33 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reagent">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#SpeciesRole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#RateVariable"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#W"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>H</mi><mtext>rec</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
+        <hasAssociatedSideTankLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Flow_Rate"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Temperature"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Specific_Heat_Capacity"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank"/>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mi>ρ</mi><msub><mi>q</mi><mtext>r</mtext></msub><msub><mi>c</mi><mtext>p</mtext></msub><mrow><mo>(</mo><msub><mi>T</mi><mtext>st</mtext></msub><mo>−</mo><mi>T</mi><mo>)</mo></mrow></mrow></math></hasFormula>
     </owl:NamedIndividual>
     
 
@@ -2762,7 +2795,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Concentration_Law_with_Flow_Exchange_with_Side_Tank -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Concentration_Law_with_Flow_Exchange_with_Side_Tank">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Molecular_Weight"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Mass"/>
@@ -2780,6 +2813,16 @@
         <hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Stream_Dimension"/>
         <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#kg"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>m</mi><mtext>st,0</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Initial_Temperature -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Initial_Temperature">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#OperationParameter"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#oC"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>T</mi><mtext>st,0</mtext></msub></mrow></math></hasSymbol>
     </owl:NamedIndividual>
     
 
@@ -2809,10 +2852,39 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#RateVariable"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#W"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>H</mi><mtext>rec,st</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Recycle_Enthalpy_Flow_Rate_Law_with_Flow_Exchange_with_Side_Tank">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
+        <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Initial_Temperature"/>
+        <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Temperature"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Flow_Rate"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Initial_Temperature"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Temperature"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Specific_Heat_Capacity"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank"/>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mi>ρ</mi><msub><mi>q</mi><mtext>r</mtext></msub><msub><mi>c</mi><mtext>p</mtext></msub><mrow><mo>(</mo><mi>T</mi><mo>−</mo><msub><mi>T</mi><mtext>st</mtext></msub><mo>)</mo></mrow></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -2840,6 +2912,16 @@
     
 
 
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Temperature -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Temperature">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#StateVariable"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#oC"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>T</mi><mtext>st</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#SigmaAldrich -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#SigmaAldrich">
@@ -2852,9 +2934,9 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportPhenomenon"/>
-        <relatesToMassEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Solid_Dissolution_Equilibrium"/>
-        <relatesToMassEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Equilibrium_over_Mass"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
+        <relatesToEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Solid_Dissolution_Equilibrium"/>
+        <relatesToEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Equilibrium_over_Mass"/>
     </owl:NamedIndividual>
     
 
@@ -2912,7 +2994,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density_Solid"/>
@@ -2932,7 +3014,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Solid-Liquid_Mass_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Volumetric_Mass_Transfer_Rate_Law_with_Solid-Liquid_Mass_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportLaw"/>
         <hasAssociatedSolidLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Solid_Derivative_Law_with_Solid-Liquid_Mass_Transfer"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Concentration"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Density"/>
@@ -2973,7 +3055,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Equilibrium_over_Mass -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Equilibrium_over_Mass">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -2996,7 +3078,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Saturated_Concentration_Law_with_Plain_Solid_Dissolution_Equilibrium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Saturated_Concentration_Law_with_Plain_Solid_Dissolution_Equilibrium">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Constant_Solid_Dissolution_Saturated_Concentration"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Plain_Solid_Dissolution_Equilibrium"/>
         <hasFormula rdf:parseType="Literal"><math><mrow><msup><msub><mi>c</mi><mtext>s,const</mtext></msub><mtext>*</mtext></msup></mrow></math></hasFormula>
@@ -3007,7 +3089,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Saturated_Concentration_Law_with_Solid_Dissolution_Equilibrium_over_Mass -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Saturated_Concentration_Law_with_Solid_Dissolution_Equilibrium_over_Mass">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassEquilibriumLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Equilibrium_over_Mass"/>
         <hasFormula rdf:parseType="Literal"><math><mrow><mtext>specifically defined</mtext></mrow></math></hasFormula>
@@ -3138,7 +3220,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Flow">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
     </owl:NamedIndividual>
     
 
@@ -3147,7 +3229,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Turbulent_Flow">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
     </owl:NamedIndividual>
     
 
@@ -3156,7 +3238,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Vortex_Flow">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Axial_Dispersion"/>
     </owl:NamedIndividual>
     
 
@@ -3174,10 +3256,10 @@
     
 
 
-    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch_Energy -->
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch -->
 
-    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch_Energy">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyAccumulationLaw"/>
         <hasIndependentModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Time"/>
         <hasIntegralInitialValue rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Initial_Temperature"/>
         <hasIntegralModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature"/>
@@ -3194,12 +3276,13 @@
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Mass_Solid"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Enthalpy"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate"/>
+        <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Recycle_Enthalpy_Flow_Rate"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Volumetric_Mass_Transfer_Rate"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid_Dissolution_Enthalpy"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Specific_Heat_Capacity_Solid"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer_Rate"/>
-        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch_Energy"/>
-        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mrow><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>Q</mi><mtext>u</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>Q</mi><mtext>p</mtext></msub></mrow><mo>]</mo></mrow><mo>−</mo><mn>1000</mn><mfrac><mrow><mo>∑</mo><mi>m</mi></mrow><mi>ρ</mi></mfrac><mrow><mo>(</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>r</mtext></msub><msub><mi>ΔH</mi><mtext>r</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>t,g</mtext></msub><msub><mi>ΔH</mi><mtext>g</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>t,s</mtext></msub><msub><mi>ΔH</mi><mtext>s</mtext></msub></mrow><mo>]</mo></mrow><mo>)</mo></mrow></mrow><mrow><mrow><mo>∑</mo><mi>m</mi><msub><mi>c</mi><mtext>p</mtext></msub></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>m</mi><mtext>s</mtext></msub><msub><mi>c</mi><mtext>p,s</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><msub><mi>C</mi><mtext>eq</mtext></msub></mrow></mfrac></mrow></math></hasFormula>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Batch"/>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mrow><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>Q</mi><mtext>u</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>Q</mi><mtext>p</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>H</mi><mtext>rec</mtext></msub><mo>]</mo></mrow><mo>−</mo><mn>1000</mn><mfrac><mrow><mo>∑</mo><mi>m</mi></mrow><mi>ρ</mi></mfrac><mrow><mo>(</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>r</mtext></msub><msub><mi>ΔH</mi><mtext>r</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>t,g</mtext></msub><msub><mi>ΔH</mi><mtext>g</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>t,s</mtext></msub><msub><mi>ΔH</mi><mtext>s</mtext></msub></mrow><mo>]</mo></mrow><mo>)</mo></mrow></mrow><mrow><mrow><mo>∑</mo><mi>m</mi><msub><mi>c</mi><mtext>p</mtext></msub></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>m</mi><mtext>s</mtext></msub><msub><mi>c</mi><mtext>p,s</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><msub><mi>C</mi><mtext>eq</mtext></msub></mrow></mfrac></mrow></math></hasFormula>
     </owl:NamedIndividual>
     
 
@@ -3208,7 +3291,7 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_over_Time">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#StateVariable"/>
-        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch_Energy"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Derivative_Law_with_Batch"/>
         <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#K_per_s"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mfrac><mrow><mo>d</mo><mi>T</mi></mrow><mrow><mo>d</mo><mi>t</mi></mrow></mfrac></mrow></math></hasSymbol>
     </owl:NamedIndividual>
@@ -3275,8 +3358,8 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportPhenomenon"/>
-        <relatesToEnergyEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Thermal_Equilibrium"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#TransportPhenomenon"/>
+        <relatesToEquilibriumPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Thermal_Equilibrium"/>
     </owl:NamedIndividual>
     
 
@@ -3307,7 +3390,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer_Rate_Law_with_Utility-Liquid_Heat_Transfer -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer_Rate_Law_with_Utility-Liquid_Heat_Transfer">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyTransportLaw"/>
         <hasAssociatedUtilityLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Energy_Used_Utility_Derivative_Law_with_Utility-Liquid_Heat_Transfer"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Heat_Transfer_Area"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature"/>
@@ -3365,7 +3448,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Equilibrium_Temperature_Law_with_Utility_Thermal_Equilibrium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Equilibrium_Temperature_Law_with_Utility_Thermal_Equilibrium">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Law"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumLaw"/>
         <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Temperature_Utility"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Thermal_Equilibrium"/>
         <hasFormula rdf:parseType="Literal"><math><mrow><msub><mi>T</mi><mtext>u</mtext></msub></mrow></math></hasFormula>
@@ -3376,7 +3459,7 @@
     <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Thermal_Equilibrium -->
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility_Thermal_Equilibrium">
-        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EnergyEquilibriumPhenomenon"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#EquilibriumPhenomenon"/>
     </owl:NamedIndividual>
     
 
@@ -3448,10 +3531,10 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Well_Mixed">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToEnergyTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer"/>
-        <relatesToEnergyTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Mass_Transfer"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer"/>
     </owl:NamedIndividual>
     
 
@@ -3460,9 +3543,11 @@
 
     <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Well_Mixed_with_Side_Tank_Recycle">
         <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer"/>
-        <relatesToMassTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Exchange_with_Side_Tank"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Power_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Side_Tank_Sonicated_Solid-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Solid-Liquid_Mass_Transfer"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Utility-Liquid_Heat_Transfer"/>
     </owl:NamedIndividual>
     
 
