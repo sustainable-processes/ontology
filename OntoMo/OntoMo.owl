@@ -1065,7 +1065,7 @@
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Reaction_Rate"/>
         <hasOptionalModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Stoichiometric_Coefficient"/>
         <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Continuous"/>
-        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mn>1</mn><mi>u</mi></mfrac><mrow><mo>(</mo><mrow><mo>[</mo><mrow><mo>matmul</mo><msub><mi>r</mi><mtext>r</mtext></msub><mi>ν</mi></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>r</mi><mtext>m</mtext></msub><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>r</mi><mtext>t</mtext></msub><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>r</mi><mtext>d</mtext></msub><mo>]</mo></mrow><mo>)</mo></mrow></mrow></math></hasFormula>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mn>1</mn><mi>u</mi></mfrac><mrow><mo>(</mo><mrow><mo>[</mo><mrow><mo>matmul</mo><msub><mi>r</mi><mtext>r</mtext></msub><mi>ν</mi></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>r</mi><mtext>m</mtext></msub><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><mrow><mo>∑</mo><msub><mi>r</mi><mtext>t,g</mtext></msub></mrow><mo>]</mo></mrow><mo>+</mo><mrow><mo>[</mo><msub><mi>r</mi><mtext>d</mtext></msub><mo>]</mo></mrow><mo>)</mo></mrow></mrow></math></hasFormula>
     </owl:NamedIndividual>
     
 
@@ -1162,7 +1162,8 @@
         <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Flow"/>
         <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Turbulent_Flow"/>
         <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Taylor-Couette_Vortex_Flow"/>
-    </owl:NamedIndividual>
+
+        <relatesToFlowPattern rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>    </owl:NamedIndividual>
     
 
 
@@ -1542,7 +1543,8 @@
         <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Annular_Microflow"/>
         <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m_per_s"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mi>u</mi></mrow></math></hasSymbol>
-    </owl:NamedIndividual>
+
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Gas-Liquid_Taylor_Flow"/>    </owl:NamedIndividual>
     
 
 
@@ -1600,7 +1602,8 @@
         <hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Stream_Dimension"/>
         <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#per_s"/>
         <hasSymbol rdf:parseType="Literal"><math><mrow><mrow><msub><mi>k</mi><mtext>L</mtext></msub><mspace nspace="0"></mspace><mi>a</mi></mrow></mrow></math></hasSymbol>
-    </owl:NamedIndividual>
+
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Coefficient_Law_with_Gas-Liquid_Taylor_Flow_by_Bercic_and_Pintar"/>    </owl:NamedIndividual>
     
 
 
@@ -3854,6 +3857,196 @@
             <rdf:Description rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit"/>
         </owl:members>
     </rdf:Description>
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPattern"/>
+        <relatesToTransportPhenomenon rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Mass_Transfer"/>
+        <hasDOI>10.1021/ie051235s</hasDOI>
+        <hasAnnotation>Gas-liquid Taylor flow (non-aerated slug flow, bubble train): bubbles longer than channel diameter separated by bubble-free liquid slugs with a thin wall film; channels 0.2-3 mm</hasAnnotation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowParameter"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction_Law_with_Gas-Liquid_Taylor_Flow"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>ε</mi><mtext>l</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowParameter"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Gas-Liquid_Taylor_Flow"/>
+        <hasLaw rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Plain"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>UC</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Plain -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Plain">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowParameter"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>UC,plain</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Bubble_Length -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Bubble_Length">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowParameter"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>B</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Slug_Length -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Slug_Length">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowParameter"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>S</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Diffusion_Coefficient -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Diffusion_Coefficient">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#MassTransportParameter"/>
+        <hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas_Dimension"/>
+        <hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Stream_Dimension"/>
+        <hasDimension rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Species_Dimension"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m.m_per_s"/>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>D</mi><mtext>L</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Methane_Diffusion_Coefficient -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Methane_Diffusion_Coefficient">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Constant"/>
+        <hasUnit rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#m.m_per_s"/>
+        <hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5E-09</hasValue>
+        <hasAnnotation>Reference diffusivity of methane in water used by the Bercic-Pintar correlation; 1.5e-9 m2/s to be verified against Bercic 2001</hasAnnotation>
+        <hasSymbol rdf:parseType="Literal"><math><mrow><msub><mi>D</mi><mtext>CH4</mtext></msub></mrow></math></hasSymbol>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Coefficient_Law_with_Gas-Liquid_Taylor_Flow_by_Bercic_and_Pintar -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Volumetric_Mass_Transfer_Coefficient_Law_with_Gas-Liquid_Taylor_Flow_by_Bercic_and_Pintar">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Diffusion_Coefficient"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Methane_Diffusion_Coefficient"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length"/>
+        <hasRule rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow_Rule_by_Bercic_and_Pintar"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasDOI>10.1021/ie051235s</hasDOI>
+        <hasAnnotation>Lapkin et al. 2006 eq 1; original correlation Bercic and Pintar, Chem. Eng. Sci. 1997, 52, 3709, fitted to methane absorption</hasAnnotation>
+        <hasFormula rdf:parseType="Literal"><math><mrow><msup><mrow><mo>(</mo><mfrac><msub><mi>D</mi><mtext>L</mtext></msub><msub><mi>D</mi><mtext>CH4</mtext></msub></mfrac><mo>)</mo></mrow><mn>0.5</mn></msup><mfrac><mrow><mn>0.111</mn><msup><mi>u</mi><mn>1.19</mn></msup></mrow><msup><mrow><mo>(</mo><mrow><msub><mi>ε</mi><mtext>l</mtext></msub><msub><mi>L</mi><mtext>UC</mtext></msub></mrow><mo>)</mo></mrow><mn>0.57</mn></msup></mfrac></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction_Law_with_Gas-Liquid_Taylor_Flow -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Volume_Fraction_Law_with_Gas-Liquid_Taylor_Flow">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate_Gas"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasDOI>10.1021/ie051235s</hasDOI>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mrow><mo>∑</mo><mi>q</mi></mrow><mrow><mrow><mo>∑</mo><msub><mi>q</mi><mtext>g</mtext></msub></mrow><mo>+</mo><mrow><mo>∑</mo><mi>q</mi></mrow></mrow></mfrac></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Gas-Liquid_Taylor_Flow -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Velocity_Law_with_Gas-Liquid_Taylor_Flow">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate_Gas"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Radius"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasDOI>10.1021/ie051235s</hasDOI>
+        <hasFormula rdf:parseType="Literal"><math><mrow><mfrac><mrow><mrow><mo>∑</mo><msub><mi>q</mi><mtext>g</mtext></msub></mrow><mo>+</mo><mrow><mo>∑</mo><mi>q</mi></mrow></mrow><mrow><mn>π</mn><msup><mi>r</mi><mn>2</mn></msup></mrow></mfrac></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Gas-Liquid_Taylor_Flow -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Gas-Liquid_Taylor_Flow">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Bubble_Length"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Liquid_Slug_Length"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasFormula rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>B</mtext></msub><mo>+</mo><msub><mi>L</mi><mtext>S</mtext></msub></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Plain -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Law_with_Plain">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#FlowPatternLaw"/>
+        <hasModelVariable rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Unit_Cell_Length_Plain"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasAnnotation>User-supplied unit cell length: L_UC = L_UC,plain</hasAnnotation>
+        <hasFormula rdf:parseType="Literal"><math><mrow><msub><mi>L</mi><mtext>UC,plain</mtext></msub></mrow></math></hasFormula>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow_Rule_by_Bercic_and_Pintar -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow_Rule_by_Bercic_and_Pintar">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Rule"/>
+        <hasDescriptor rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate"/>
+        <hasDescriptor rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Flow_Rate_Gas"/>
+        <hasDescriptor rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Has_Gas_Input"/>
+        <hasDescriptor rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Has_Liquid_Input"/>
+        <hasDescriptor rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Radius"/>
+        <isAssociatedWith rdf:resource="https://raw.githubusercontent.com/sustainable-processes/ontology/refs/heads/main/OntoMo/OntoMo.owl#Gas-Liquid_Taylor_Flow"/>
+        <hasDOI>10.1021/ie051235s</hasDOI>
+        <hasAnnotation>Correlation validated for liquid volume fraction 0.27-0.8 in 1.5 mm i.d. straight glass capillaries (Lapkin 2006 Fig 3). Rule relaxed to 0.001-0.8: below 0.27 kLa is extrapolated.</hasAnnotation>
+        <hasSPARQL>select ?is_rule_match where {
+    bind({Has_Gas_Input} as ?has_gas_input).
+    bind({Has_Liquid_Input} as ?has_liquid_input).
+    bind({Radius} as ?r).
+    bind({Flow_Rate} as ?q).
+    bind({Flow_Rate_Gas} as ?q_gas).
+    bind((?q / 1000) / (?q_gas + ?q / 1000) as ?eps_l).
+    bind(
+        if(
+            ?has_gas_input &amp;&amp;
+            ?has_liquid_input &amp;&amp;
+            ?r &gt;= 0.0001 &amp;&amp; ?r &lt;= 0.0015 &amp;&amp;
+            ?eps_l &gt;= 0.001 &amp;&amp; ?eps_l &lt;= 0.8,
+            true,
+            false) as ?is_rule_match
+    ).
+}</hasSPARQL>
+    </owl:NamedIndividual>
+    
+
 </rdf:RDF>
 
 
